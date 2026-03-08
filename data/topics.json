@@ -1,0 +1,5 @@
+[
+  {"name": "미루기", "query": "procrastination meta-analysis psychology", "active": true},
+  {"name": "실행 의도", "query": "implementation intention goal achievement meta-analysis", "active": true},
+  {"name": "인지 부하", "query": "cognitive load working memory productivity meta-analysis", "active": true}
+]

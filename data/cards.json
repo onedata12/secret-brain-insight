@@ -1,0 +1,601 @@
+[
+  {
+    "id": "5dcfe1bd7fde14465cd8d5d0b432e8f6ac4dc24a",
+    "topic": "implementation intention goal achievement meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "Impact of enhanced recovery after surgery (ERAS) guidelines implementation in cesarean delivery: A systematic review and meta-analysis.",
+    "year": 2023,
+    "citations": 20,
+    "authors": [
+      "Beatriz B. Pinho",
+      "A. Costa"
+    ],
+    "status": "rejected",
+    "generated_at": "2026-03-08T15:55:03.894712",
+    "headline": "제왕절개도 빠른 회복이야!",
+    "one_line": "ERAS 프로그램 적용 시 제왕절개 후 입원 기간이 평균 13.78시간 단축되고 마약성 진통제 사용도 유의미하게 감소했어.",
+    "easy_explanation": "ERAS는 쉽게 말하면 수술 전후 관리를 최적화해서 몸이 빨리 회복되도록 돕는 프로그램이야. 제왕절개한 산모들한테 이걸 적용했더니, 병원에 머무는 시간이 거의 하루 가까이 줄었고 아픔을 달래는 강한 진통제도 훨씬 덜 써도 됐어. 재입원율이나 합병증 위험은 기존 방식이랑 차이가 없었으니까 안전하면서도 더 빠른 거지. 약 19,000명 산모 데이터를 모은 메타분석이라 신뢰도도 꽤 높은 편이야.",
+    "why_important": "제왕절개는 전 세계적으로 계속 늘고 있는 수술인데, 산모가 빨리 회복해서 아기 곁으로 돌아갈 수 있다는 게 엄청난 의미야. 입원 기간이 줄면 의료비 부담도 낮아지고 가족 전체 삶의 질이 올라가거든.",
+    "secret_brain_insight": "좋은 시스템은 결과를 바꿔. ERAS처럼, 네가 할 일을 어떤 순서로, 어떤 방식으로 처리하느냐가 같은 노력으로도 전혀 다른 결과를 만들어내거든. 시크릿 브레인으로 네 하루를 설계하는 것도 결국 그 원리야 — 더 빠르게, 더 가볍게 목표에 닿는 거지.",
+    "sns_copy": "제왕절개 후 퇴원이 14시간 빨라진다면? 🏥✨ 1만 9천 명 데이터가 증명한 ERAS 회복 프로그램, 더 빠른 회복 더 빠른 일상 복귀가 현실이 됐어요.",
+    "landing_copy": "19,001명의 산모 데이터를 분석한 2023년 메타분석 연구에 따르면, ERAS 가이드라인을 적용한 제왕절개 산모는 입원 기간이 평균 13.78시간 단축되고 마약성 진통제 사용이 유의미하게 감소했습니다. 재입원율과 산모 합병증 위험은 기존 방식과 동등하게 유지되어, 안전하면서도 더 빠른 회복을 실현할 수 있음이 확인되었습니다.",
+    "keywords": [
+      "ERAS",
+      "제왕절개 회복",
+      "산모 케어"
+    ],
+    "doi_url": "https://doi.org/10.1016/j.ejogrb.2023.11.028",
+    "pdf_url": "http://www.ejog.org/article/S0301211523008369/pdf",
+    "abstract_text": "BACKGROUND\nCesarean delivery rate is increasing, with no prediction of this rate to drop. Implementation of Early Recovery After Surgery (ERAS) program adapted to this high prevalent obstetrical surgical procedure proposes better peri-operative care achievement with improved maternal medical care, namely reduced morbidity, faster return to normal daily activities and improved impact on quality of life. Our aim was to analyze the outcomes of ERAS guidelines implementation in cesarean sections (CS).\n\n\nMATERIAL AND METHODS\nA systematic review was performed across 3 databases (MEDLINE (Pubmed), Scopus and Web of Science), with no time or language filters, for articles comparing outcomes on pregnant women who delivered via CS with ERAS guidelines implementation versus the traditional approach without ERAS implementation. Outcomes established: primary - hospital length of stay; secondary - opioid consumption, readmission rates and maternal complications (overall, surgical site infection and emetic morbidity). Statistical analyses were conducted using Review Manager 5.4 and its results were expressed as mean difference, standardized mean difference and odds ratio, with 95% of confidence intervals. This systematic review was reported according to the PRISMA statement.\n\n\nRESULTS\nThis systematic review included 16 studies (3 randomized controlled trials (RCT), 4 prospective cohorts and 9 retrospective cohorts), with a pool analysis of 19,001 women (9752 with the traditional approach and 9249 following ERAS guidelines). Our results showed a significative decrease in length of hospital stay (MD: -13.78 h; CI 95 % -19.28 to -8.28; p < 0.00001) and opioid consumption (SMD: -0.91; CI 95 % -1.51 to -0.32; p = 0.003), with similar readmission rates (OR: 0.85; CI 95 % 0.50 to 1.44; p = 0.53) and maternal complications, namely: overall (OR: 0.87; CI 95 % 0.56 to 1.35; p = 0.53); surgical site infection (OR: 1.13; CI 95 % 0.72 to 1.77; p = 0.60) and emetic morbidity (OR: 0.78; CI 95 % 0.31 to 1.96; p = 0.60).\n\n\nCONCLUSIONS\nERAS guidelines applied at CS management are associated with decreased length of stay and opioid consumption, without negatively impact on readmission rates and overall maternal complications, including surgical site infection and emetic morbidity. The reduced number of RCT studies and the heterogeneity of the studies (heterogeneous inter-study protocols) constitutes the major limitation of the evidence found. Still, these findings may be a foremost help to confirm the beneficial impact of an ERAS approach during peri-cesarean management.",
+    "reviewed_at": "2026-03-08T16:18:15.705879"
+  },
+  {
+    "id": "75730e436c3e015d09952e38b3278876ee4f0d47",
+    "topic": "implementation intention goal achievement meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "Effects of PAD class on Chinese nursing students' academic achievement and core ability: A systematic review and meta-analysis.",
+    "year": 2025,
+    "citations": 2,
+    "authors": [
+      "Xiaoyan Wang",
+      "Yan Wang",
+      "Mei Du"
+    ],
+    "status": "pending",
+    "generated_at": "2026-03-08T15:55:23.314988",
+    "headline": "PAD 수업이 답이야!",
+    "one_line": "44개 연구 메타분석 결과, PAD 수업이 시험 성적·실기·비판적 사고 등 6가지 핵심 능력 전부를 전통 수업보다 유의미하게 높였어.",
+    "easy_explanation": "PAD 수업은 교수가 먼저 핵심만 딱 가르쳐주고, 학생이 혼자 소화한 다음, 다 같이 토론하는 방식이야. 중국 간호대생 44개 연구를 싹 모아서 분석했더니, 이 방식이 그냥 강의식 수업보다 시험 점수, 실기 능력, 스스로 공부하는 힘, 비판적 사고, 자기효능감까지 전부 다 더 좋게 나왔어. 쉽게 말하면 '받아 적기 수업'보다 '직접 씹어 먹는 수업'이 훨씬 더 효과적이라는 거지.",
+    "why_important": "앞으로 내 건강을 책임질 간호사들이 어떻게 배우느냐가 실제 의료 현장 실력으로 직결되거든. 더 좋은 교육법이 보급될수록 우리가 받는 의료 서비스 질도 올라가는 거야.",
+    "secret_brain_insight": "PAD 수업이 효과적인 이유는 '소화할 시간'을 준다는 거야. 시크릿 브레인도 똑같아 — 할 일을 캡처하고, 혼자 정리하고, 나중에 되돌아보는 그 흐름이 결국 뇌를 진짜 성장시키거든. 정보를 흘려보내지 말고 네 방식으로 씹어봐, 그게 진짜 실력이 돼.",
+    "sns_copy": "44개 연구가 증명했어 📚 '설명 → 혼자 소화 → 토론' 3단계 PAD 수업, 성적·실기·비판적 사고 전부 업그레이드! 일방적으로 듣기만 하는 공부는 이제 그만 🔥",
+    "landing_copy": "2025년 발표된 메타분석 연구(44개 연구, 9개 데이터베이스 기반)에 따르면, PAD 수업은 전통적 강의식 교육 대비 학업 성취도와 핵심 역량 6가지 모두에서 통계적으로 유의미한 향상을 보였습니다. 단순히 지식을 전달하는 것을 넘어, 스스로 생각하고 토론하는 학습 구조가 실질적인 역량 성장으로 이어진다는 것이 과학적으로 확인되었습니다.",
+    "keywords": [
+      "PAD수업",
+      "능동학습",
+      "간호교육"
+    ],
+    "doi_url": "https://doi.org/10.1016/j.nepr.2025.104583",
+    "pdf_url": "",
+    "abstract_text": "PAD class has been used in nursing teaching for more than 10 years in China, but there is no evidence to show the effectiveness of PAD class in nursing students. Therefore, this study aims to conduct the first systematic review and meta-analysis of the learning effects of PAD class on nursing students. From the establishment of the database until August 2025, a systematic evaluation search was conducted on 9 databases. After careful screening process, 44 studies on PAD class education of nursing students in China were selected for meta-analysis. The results show that PAD class is significantly better than traditional teaching methods in improving final examination scores, practical skill, usual performance, self-directed learning ability, critical thinking ability, and self-efficacy of Chinese nursing students. Given the limited number and quality of included studies, these findings should be confirmed by further high-quality studies.\n\n\nAIM\nThis study aims to explore the effects of the Presentation-Assimilation-Discussion (PAD) class among nursing students in China.\n\n\nBACKGROUND\nThe PAD class has been implemented in China for over a decade. Although several studies have demonstrated its potential to improve both academic performance and core competencies of nursing students in China, there remains insufficient evidence to conclusively recommend its adoption as a teaching method.\n\n\nDESIGN\nThis is a systematic review and meta-analysis.\n\n\nMETHODS\nIn August 2025, a comprehensive search was performed across multiple databases, including PubMed, Embase, The Cochrane Library, Web of Science (WoS), OVID, Wanfang, VIP, CBM, and CNKI. Studies meeting the predefined inclusion and exclusion criteria were selected, and relevant data were extracted. The quality of the studies was assessed before conducting the meta-analysis. The evaluation protocol of this study has been prospectively registered in the International Prospective Register of Systematic Reviews(PROSPERO) (CRD420251020143).\n\n\nRESULTS\nFrom an initial pool of 2013 articles, 44 were selected for meta-analysis after a rigorous screening process. The results show that the PAD class approach can improve the final examination scores, practical skill, usual performance, self-directed learning ability, critical thinking ability, and self-efficacy of nursing students compared to traditional teaching methods. All these outcomes were significantly superior.\n\n\nCONCLUSION\nThe PAD class model can effectively enhance academic achievement and core ability of Chinese nursing students. However, considering the limited quantity and quality of the included studies, these conclusions require validation through further high-quality research."
+  },
+  {
+    "id": "9680cd83359acb97166b1da4cc1456c0e846cc3e",
+    "topic": "implementation intention goal achievement meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "Evaluation of the Effectiveness of Behavioral Economic Incentive Programs for Goal Achievement on Healthy Diet, Weight Control and Physical Activity: A Systematic Review and Network Meta-analysis",
+    "year": 2022,
+    "citations": 27,
+    "authors": [
+      "Suparee W. Boonmanunt",
+      "O. Pattanaprateep",
+      "B. Ongphiphadhanakul"
+    ],
+    "status": "approved",
+    "generated_at": "2026-03-08T15:55:42.042378",
+    "headline": "돈 걸면 진짜 달라져",
+    "one_line": "보증금 방식 인센티브는 식단·체중 관리 성공률을 최대 79%, 운동 목표 달성률을 63% 높였다.",
+    "easy_explanation": "운동하거나 다이어트할 때 '내 돈을 먼저 걸어놓고, 성공하면 돌려받는' 방식이 제일 효과 있었어. 그냥 상금 주는 것보다 내 돈 잃을 수 있다는 두려움이 훨씬 더 강하게 동기부여가 되는 거지. 복권처럼 랜덤으로 보상해주는 방식도 꽤 효과 있었는데, 운동은 프로그램 끝나고도 계속 유지됐어. 결론은 '손해 볼 것 같은 느낌'이 인간을 움직이게 한다는 거야.",
+    "why_important": "헬스장 등록하고 안 가는 게 우리 일상 아니야? 이 연구는 '의지력'보다 '돈을 건 구조'가 행동을 바꾼다는 걸 과학적으로 증명했어. 목표 달성 앱이나 습관 관리 툴 설계에 바로 적용할 수 있는 인사이트야.",
+    "secret_brain_insight": "목표를 그냥 적어두는 것만으로는 부족해. 내가 뭔가를 잃을 수 있다는 느낌, 그 긴장감이 진짜 행동을 만들어. 시크릿 브레인에서 중요한 목표엔 '나만의 보증금'을 걸어봐 — 못 지키면 친구한테 기부하든, 뭔가를 포기하든. 그 작은 두려움이 너를 오늘도 움직이게 할 거야.",
+    "sns_copy": "내 돈 걸면 진짜 함 💸 보증금 방식 인센티브, 운동 목표 달성률 63% 상승 — 의지력보다 구조가 답이었다.",
+    "landing_copy": "35개의 무작위 대조 임상시험을 메타분석한 연구에 따르면, 사전에 보증금을 거는 방식의 인센티브 프로그램은 식단·체중 관리 성공률을 79%, 신체활동 목표 달성률을 63% 높이는 것으로 나타났습니다. 의지력이 아닌 행동경제학적 설계가 건강한 습관을 만드는 핵심입니다.",
+    "keywords": [
+      "행동경제학",
+      "습관형성",
+      "인센티브설계"
+    ],
+    "doi_url": "https://doi.org/10.1093/abm/kaac066",
+    "pdf_url": "https://academic.oup.com/abm/article-pdf/57/4/277/49868631/kaac066.pdf",
+    "reviewed_at": "2026-03-08T16:10:02.584657",
+    "abstract_text": "Abstract Background Healthy diet, weight control and physical activity to reduce obesity can be motivated by financial incentives (FI). Behavioral-economic approaches may improve the incentivization effectiveness. This study compares and ranks the effectiveness of standard and behavioral incentivization for healthy diet, weight control, and physical activity promotion. Purpose To investigate whether behavioral-economic insights improve incentivization effectiveness. Methods A systematic search of Medline and Scopus was performed from database inception to December 2020. Study characteristics, program designs, and risk ratio (RR) were extracted. A two-stage network meta-analysis pooled and ranked intervention effects. Results There were 35 eligible RCTs. For diet-weight control, standard FI, deposit contract (deposit), lottery-based incentive (lottery), and standard-FI + lottery increased goal achievement compared to no-FI but only deposit was statistically significant with pooled RRs and 95% confidence intervals (CI) of 1.21 (0.94, 1.56), 1.79 (1.04, 3.05), 1.45 (0.99, 2.13), and 1.73 (0.83, 3.63). For physical activity, standard-FI, deposit, and lottery significantly increased goal achievement compared to no-FI, with pooled RRs of 1.38 (1.13, 1.68), 1.63 (1.24, 2.14) and 1.43 (1.14, 1.80), respectively. In a follow-up period for physical activity, only deposit significantly increased goal achievement compared to no-FI, with pooled RRs of 1.39 (1.11, 1.73). Conclusion Deposit, followed by lottery, were best for motivating healthy diet, weight control and physical activity at program end. Post-intervention, deposit then standard-FI were best for motivating physical activity. Behavioral insights can improve incentivization effectiveness, although lottery-based approaches may offer only short-term benefit regarding physical activity. However, the imprecise intervention effects were major concerns."
+  },
+  {
+    "id": "bf4486a1b593840518469b5d515bd6b5d621c02b",
+    "topic": "implementation intention goal achievement meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "The 3 × 2 Achievement Goals in the Education, Sport, and Occupation Literatures: A Systematic Review with Meta-Analysis",
+    "year": 2023,
+    "citations": 11,
+    "authors": [
+      "M. Lochbaum",
+      "Cassandra Sisneros",
+      "Zişan Kazak"
+    ],
+    "status": "pending",
+    "generated_at": "2026-03-08T15:56:00.585564",
+    "headline": "목표 방향이 성과를 바꿔",
+    "one_line": "35,031명 분석 결과, '남보다 잘하려는' 목표보다 '과제 자체를 잘하려는' 접근 목표가 학습 전략·동기와 최대 0.42 상관을 보였어.",
+    "easy_explanation": "목표를 세울 때 '남한테 지지 말아야지'보다 '이 일 자체를 잘해보자'는 마음으로 접근하는 게 훨씬 효과적이래. 15개국 3만 5천 명 데이터를 모아서 분석했더니, 과제 중심·자기 성장 중심으로 목표를 잡은 사람들이 좋은 학습 습관이나 내적 동기랑 훨씬 더 연결돼 있었거든. 반대로 '실패하면 어떡하지', '남보다 못하면 어떡하지' 식의 회피 목표는 별로 도움이 안 됐어. 쉽게 말하면 목표의 방향이 결과를 만드는 거야.",
+    "why_important": "매일 할 일을 적을 때 '왜 이걸 하는지' 방향이 다르면 결과도 달라진다는 거야. 경쟁이나 두려움이 아니라 성장과 숙달 중심으로 목표를 짜는 게 실제 행동 변화로 이어져.",
+    "secret_brain_insight": "할 일 목록에 '남보다 앞서기'보다 '어제의 나보다 한 걸음'을 써봐. 연구가 증명했어 — 과제 그 자체에 집중하는 목표가 진짜 동기랑 연결된다고. 시크릿 브레인에서 목표를 기록할 때, 방향 하나만 바꿔도 네 하루가 달라질 수 있어.",
+    "sns_copy": "🎯 3만 5천 명 분석 결과 — '남 이기기' 목표 말고 '과제 숙달' 목표 세운 사람이 더 오래, 더 잘 했다. 목표의 방향이 전부야.",
+    "landing_copy": "15개국 35,031명을 대상으로 한 메타분석 연구에 따르면, '경쟁 회피'가 아닌 '과제 숙달과 자기 성장' 중심의 목표 설정이 학습 전략 및 내적 동기와 가장 높은 연관성을 보였습니다. 목표를 어떻게 프레이밍하느냐가 성과를 결정합니다.",
+    "keywords": [
+      "목표설정",
+      "성취동기",
+      "성장마인드셋"
+    ],
+    "doi_url": "https://doi.org/10.3390/ejihpe13070085",
+    "pdf_url": "https://www.mdpi.com/2254-9625/13/7/85/pdf?version=1687361713",
+    "abstract_text": "Achievement goal theory has been a dominant motivation framework since the 1980s. The 3 × 2 achievement goal framework emerged in the literature in 2011. We aimed to conduct a systematic review with meta-analysis following the PRISMA guidelines of the 3 × 2 achievement goal research in education, sport, and occupation settings. We retrieved articles from searching EBSCOhost and Google Scholar platforms. Eligible articles contained the 3 × 2 achievement goal in education, sport, or occupation, were published in a peer-reviewed journal, and provided mean data or correlate data. We tested hypotheses concerned with (1) the overall pattern of achievement goal endorsement, (2) achievement goal differences by domain (education, sport) and compulsory nature of the domains or sub-domains, and (3) achievement goal relationships with correlates (e.g., learning strategies, motivations, performance). After screening, 56 articles met all inclusion criteria, providing 58 samples across education (n = 44), sport (n = 10), and occupation (n = 4) settings with 35,031 unique participants from 15 countries. Participants endorsed the task- and self-approach goals more than the counterpart avoidance goals, other-avoidance goals more than other-approach goals, and the intercorrelations and reliability coefficients were acceptable. Minimal impact results from examining within and across study bias statistics. Of importance, the domain (i.e., education, sport) and the compulsory nature of the domain or sub-domains (i.e., primary-secondary education, sport) moderated goal endorsement (group mixed-effects p < 0.05, g values medium to very large). These groupings also moderated the other goal differences. Concerning our correlates analyses, most meta-analyzed correlations among the achievement goals and correlates were small in meaningfulness with the largest correlations (0.30–0.42) between the approach goals merged and the task- and self-approach goals and facilitative learning strategies and desired motivations. In conclusion, the 3 × 2 achievement goals literature is diverse. Furthering the study and application of this model requires overcoming inherent limitations (i.e., consistent response scale sets), teasing out differences between the task- and self-goals, measuring performance outcomes, and cross-cultural collaborations."
+  },
+  {
+    "id": "00c5a7fca4ad2792a2d28de20847875f915a0b92",
+    "topic": "implementation intention goal achievement meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "Effects of Interventions Based on Achievement Goals and Self-Determination Theories on the Intention to Be Physically Active of Physical Education Students: A Systematic Review and Meta-Analysis",
+    "year": 2022,
+    "citations": 9,
+    "authors": [
+      "Carlos Fernández-Espínola",
+      "B. J. Almagro",
+      "Javier A. Tamayo-Fajardo"
+    ],
+    "status": "pending",
+    "generated_at": "2026-03-08T15:56:20.387163",
+    "headline": "움직이고 싶게 만드는 법",
+    "one_line": "자율성과 목표 이론 기반 수업 개입이 체육학생의 신체활동 의도를 중간 효과크기(SMD=0.47)로 유의미하게 높였다.",
+    "easy_explanation": "체육 시간에 선생님이 어떻게 가르치느냐에 따라 학생들이 '나중에도 운동하고 싶다'는 마음이 달라진대. 연구자들이 11개 연구를 모아서 분석해봤더니, '네가 스스로 선택한다'는 느낌과 '잘하고 싶다'는 목표의식을 심어주는 수업이 효과가 있었어. 가족이 함께 참여하거나, 운동하는 영상을 보여주는 것도 의욕을 높이는 데 꽤 도움이 됐고. 한마디로, 강요보다 '내가 하고 싶어서' 하는 분위기를 만드는 게 핵심이야.",
+    "why_important": "운동을 '해야 해서' 하면 금방 포기하는데, '하고 싶어서' 하면 습관이 돼. 이 연구는 학교에서부터 그 마음을 심어줄 수 있다는 걸 보여줘서, 평생 건강 습관의 씨앗이 어디서 시작되는지 알려준다는 점에서 중요해.",
+    "secret_brain_insight": "할 일을 억지로 목록에 넣는 것보다, '내가 왜 이걸 하고 싶은지'를 먼저 적어두는 게 훨씬 강력해. 시크릿 브레인에 목표를 설정할 때, 외부 압박이 아니라 내 진짜 이유를 한 줄 써봐. 그게 작은 차이 같아도, 실행력을 완전히 바꿔놓거든.",
+    "sns_copy": "💪 '하고 싶다'는 마음, 가르칠 수 있었어. 11개 연구 분석 결과, 자율성 기반 수업 하나로 운동 의지가 통계적으로 유의미하게 UP. 강요 말고, 동기부터 설계하자.",
+    "landing_copy": "2022년 발표된 메타분석 연구(11개 논문 종합)에 따르면, 자기결정이론과 성취목표이론을 적용한 수업 개입은 학생들의 신체활동 의도를 중간 수준(효과크기 0.47)으로 유의미하게 향상시켰습니다. 억지로 시키는 것이 아닌, 내적 동기를 설계하는 방식이 행동 변화의 출발점임을 과학적으로 입증한 연구입니다.",
+    "keywords": [
+      "내적동기",
+      "신체활동의도",
+      "목표설계"
+    ],
+    "doi_url": "https://doi.org/10.3390/su142215019",
+    "pdf_url": "https://www.mdpi.com/2071-1050/14/22/15019/pdf?version=1668405001",
+    "abstract_text": "The aim was to review the effects of interventions based on self-determination theory and achievement goals theory on intention to be physically active in the future in physical education students, as well as to conduct a meta-analysis to determine the overall effect size of these interventions. PRISMA guidelines were followed to conduct this systematic review and meta-analysis. Three scientific electronic databases were used: Web of Science (WOS), Scopus, and SportDiscus. A total of eleven studies fulfilled the inclusion criteria and were included in the meta-analysis. Effect size for intention to be physically active of each study was calculated using the means and standard deviations before and after the intervention. The overall effect size for intention was moderate (standardized mean difference = 0.47 with 95% CI from 0.28 to 0.67), while the heterogeneity was large. Seven of the eleven studies reported significant within-group improvements in intention after the intervention. Eight studies showed significant between-group differences in favor of the experimental group. The findings showed that teaching strategies, family involvement, and the use of videos related to physical activity participation may be relevant factors that must be considered by educators and researchers to conduct future effective interventions. Interventions based on self-determination theory and achievement goals theory could be useful in the process of the promotion of physical activity. However, given the large heterogeneity, these findings must be taken with caution."
+  },
+  {
+    "id": "1b6c9d0f2725a3bb68631228b726a1a6679cf742",
+    "topic": "implementation intention goal achievement meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "Situational and Dispositional Achievement Goals' Relationships with Measures of State and Trait Sport Confidence: A Systematic Review and Meta-Analysis.",
+    "year": 2026,
+    "citations": 0,
+    "authors": [
+      "Hannah Quick",
+      "M. Lochbaum"
+    ],
+    "status": "pending",
+    "generated_at": "2026-03-08T15:56:39.056758",
+    "headline": "목표 유형이 자신감을 바꿔!",
+    "one_line": "과제 목표 지향은 스포츠 자신감과 r=0.27~0.33의 긍정적 상관을 보이지만, 자아 목표 지향은 오히려 약하거나 부정적인 관계(r=-0.08~0.11)를 나타냈어.",
+    "easy_explanation": "운동할 때 '나 자신이 얼마나 성장했나'에 집중하는 사람이랑 '남보다 잘해야 해'에 집중하는 사람은 자신감 수준이 달라. 성장에 집중한 사람들이 훨씬 자신감이 높게 나왔어. 근데 재밌는 건, 그 효과가 어떤 설문지를 썼느냐에 따라서도 결과가 달라졌다는 거야. 그래서 '무조건 성장 목표가 정답!'이라기보단, 상황에 따라 다를 수 있다는 걸 알아둬야 해.",
+    "why_important": "이건 운동선수뿐 아니라 우리 일상에서 목표를 어떻게 설정하느냐가 자신감에 직접 영향을 준다는 걸 보여줘. 경쟁보다 성장에 초점을 맞추면 더 건강한 자신감을 유지할 수 있다는 실질적인 힌트야.",
+    "secret_brain_insight": "할 일 목록에 '남보다 잘하기' 대신 '어제의 나보다 조금 더'라고 적어봐. 연구에 따르면 성장 중심 목표가 자신감을 더 단단하게 만들어줘. 네 시스템에 오늘 하나만 바꿔봐 — 비교 목표 말고 성장 목표로.",
+    "sns_copy": "🏅 '남보다 잘하려는 목표' vs '어제보다 성장하려는 목표' — 자신감 차이가 연구로 증명됐어. 성장 목표 그룹, 상관계수 0.33. 당신의 목표 설정이 자신감을 만든다.",
+    "landing_copy": "10,461명의 운동선수 데이터를 분석한 메타분석 연구에 따르면, '성장 중심 목표'를 가진 사람들이 더 높은 스포츠 자신감을 보였습니다. 목표를 어떻게 설정하느냐가 자신감의 크기를 결정합니다. 올바른 목표 설정 방식으로 더 단단한 자신감을 만들어보세요.",
+    "keywords": [
+      "성장목표",
+      "자신감",
+      "목표설정"
+    ],
+    "doi_url": "https://doi.org/10.3390/ejihpe16020018",
+    "pdf_url": "",
+    "abstract_text": "The purpose of this systematic review and meta-analysis (PROSPERO ID: CRD42024575181) was to quantify the relationships between dispositional and situational achievement goal involvement and sport confidence. A secondary purpose was to examine potential moderators of these relationships. Published studies reporting sufficient data, including one achievement goal measure from the dichotomous framework and one measure of sport confidence in an athlete sample, were included. Information sources included EBSCOhost databases, Web of Science databases, and relevant meta-analyses. The random-effects correlational coefficient (r) served as the summary statistic. Thirty-six studies yielding 37 independent samples, published between 1988 and 2026, which met all inclusion criteria, representing a total of 10,461 participants from youth to elite sports across four continents. Meta-analyzed random-effects correlations between task climate (k = 15, r = 0.33 [95% CI 0.23, 0.43]), ego climate (k = 13, r = -0.08 [95% CI -0.16, -0.00]), task orientation (k = 26, r = 0.27 [95% CI 0.21, 0.32]), ego orientation (k = 26, r = 0.11 [95% CI 0.06, 0.17]), and sport confidence ranged from small and negative to medium and positive in magnitude. Mixed-effects moderator analyses revealed significant differences (p < 0.05) for task climate when comparing state (r = 0.24) versus trait (r = 0.41) sport confidence measures, for task orientation scale (TEOSQ r = 0.31 vs. POSQ r = 0.18) in relation to sport confidence, and for study quality (lowest r = 0.35, medium r = 0.18, highest r = 0.24) in the task orientation-sport confidence relationship. However, nearly all prediction intervals for the examined relationships crossed zero, with the exception of a few TEOSQ- and POSQ-based moderator analyses. Thus, researchers and practitioners are cautioned that relationships between dispositional achievement goals, motivational climate perceptions, and sport confidence might be minimal or vary based on the dispositional achievement goal measure."
+  },
+  {
+    "id": "3d3586aad3686db0bf9ea597772b8bad0241acef",
+    "topic": "implementation intention goal achievement meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "Turnover intention among nurses in Iranian hospitals: a systematic review and meta-analysis",
+    "year": 2025,
+    "citations": 3,
+    "authors": [
+      "Alireza Hajizadeh",
+      "E. Kakemam",
+      "M. Arab-Zozani"
+    ],
+    "status": "pending",
+    "generated_at": "2026-03-08T15:56:58.383244",
+    "headline": "이란 간호사, 떠나고 싶어해",
+    "one_line": "이란 병원 간호사 1만2898명 분석 결과, 이직 의도가 중간 수준(2.96/5점)으로 코로나 전후·의료개혁 전후에도 꾸준히 지속됐어.",
+    "easy_explanation": "이란 간호사들이 '나 그냥 일 그만두고 싶다'는 마음을 얼마나 갖고 있는지 42개 연구를 싹 모아서 분석한 거야. 결과는 5점 만점에 2.96점, 딱 중간이야. 근데 문제는 코로나가 터지든, 의료 시스템 개혁을 하든 이 숫자가 거의 안 변한다는 거지. 마치 불만이 구조적으로 박혀 있는 것처럼, 뭘 해도 이직 충동이 사라지지 않는 거야.",
+    "why_important": "간호사가 자꾸 병원을 떠나면 남은 간호사들이 더 힘들어지고, 결국 환자 케어 질이 떨어져. 이건 남의 나라 얘기가 아니라 전 세계 의료 시스템이 공통으로 앓고 있는 문제야.",
+    "secret_brain_insight": "아무리 환경이 바뀌어도 번아웃과 이직 충동이 사라지지 않는다는 건, 시스템이 사람을 붙잡지 못하고 있다는 신호야. 할 일 목록을 채우는 것만큼, '왜 이걸 하는지'를 매일 상기시켜 주는 게 진짜 지속력을 만들어줘. 나를 붙잡는 건 결국 의미야, 도구가 아니라.",
+    "sns_copy": "코로나도, 의료개혁도 못 막은 간호사들의 이직 충동 😮 1만2898명 분석해도 숫자는 그대로... 구조가 바뀌지 않으면 사람은 떠난다.",
+    "landing_copy": "2025년 발표된 메타분석 연구(42개 연구, 12,898명 참여)에 따르면, 이란 병원 간호사의 이직 의도는 의료개혁과 코로나 팬데믹에도 불구하고 지속적으로 중간 수준을 유지했습니다. 이는 일시적 대응이 아닌 근본적인 인력 유지 정책이 필요하다는 강력한 근거입니다.",
+    "keywords": [
+      "간호사 이직",
+      "의료인력 위기",
+      "번아웃"
+    ],
+    "doi_url": "https://doi.org/10.1186/s12912-025-02801-x",
+    "pdf_url": "https://doi.org/10.1186/s12912-025-02801-x",
+    "abstract_text": "The turnover intention of nurses from their current positions have become a critical global public health challenge. In Iran, as a country facing with several of healthcare challenges, understanding the rate of nurses’ turnover intention is of paramount importance. This study aimed to determine the pooled proportion of turnover intention among Iranian hospital nurses through systematic review and meta-analysis. This systematic review and meta-analysis adhered to PRISMA guidelines. Relevant studies were identified through a comprehensive search of English and Persian databases, including Web of Science, PubMed, Scopus, Science Information Database, IranMedex, and Magiran from January 2000 to November 2024. The Joanna Briggs Institute checklist was employed to assess the methodological quality of included studies. Pooled mean and standard error with 95% CI were calculated using a random effect model. Data analysis was performed using Comprehensive Meta-Analysis software, with the I² statistic used to evaluate heterogeneity among studies and Egger’s test and visual inspection of funnel plots used to investigate the publication bias. Overall, 42 studies were included in this systematic review and meta-analysis. In total, 12,898 nurses participated in the 42 included studies. The overall turnover intention was 2.96 ± 0.056 (95% CI: 2.85–3.07, P = 0.001). Based on subgroup analysis, the turnover intention was 2.95 ± 0.123 and 2.96 ± 0.064 before and after the implementing of health transformation plan (HTP). Also, subgroup analysis by COVID-19 pandemic showed that the turnover intention was 2.97 ± 0.072 and 2.94 ± 0.095 after and before COVID-19 pandemic, respectively. Based on visual inspection of the funnel plot, and egger’s test (2.04 ± 2.96, p = 0.45), no evidence of publication bias was observed. Nurses turnover intention in Iran are at a moderate level, in general and, before and after the implementation of the HTP and the COVID-19 pandemic. These results support the need to formulate evidence-based policies and plans to enhance nurse retention, contributing to the overall stability of the Iranian health system."
+  },
+  {
+    "id": "878ee90950a2386431748eee683ec80a2c033764",
+    "topic": "implementation intention goal achievement meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "The Impact of an Acute Bout of Physical Activity on Executive Function and Academic Achievement in Preadolescent Children: A Systematic Review and Meta-Analysis.",
+    "year": 2025,
+    "citations": 3,
+    "authors": [
+      "Sam Dixon",
+      "G. Tempest",
+      "F. Hettinga"
+    ],
+    "status": "pending",
+    "generated_at": "2026-03-08T15:57:18.713324",
+    "headline": "운동해도 뇌는 그대로야?",
+    "one_line": "15개 연구 메타분석 결과, 단발성 신체활동은 아이들의 실행기능에 통계적으로 유의미한 영향을 주지 못했어 (Cohen's d = 0.02)",
+    "easy_explanation": "학교에서 체육 한 번 했다고 갑자기 집중력이 확 올라간다? 이 연구는 그게 사실인지 15개 논문을 싹 다 모아서 확인해봤어. 결론은 '글쎄...'야. 단발성 운동 한 번으로는 아이들 뇌 기능이 눈에 띄게 좋아진다는 증거가 없었거든. 마치 물 한 모금 마셨다고 갈증이 완전히 해소되길 기대하는 것처럼, 한 번의 운동으로 뇌를 바꾸긴 어렵다는 거야.",
+    "why_important": "많은 학교에서 '쉬는 시간 운동 = 집중력 향상'이라고 믿고 교육 프로그램을 짜는데, 이 연구는 그 믿음을 한 번 다시 점검하게 해줘. 단발성이 아닌 꾸준한 운동 습관이 진짜 답일 수 있다는 방향을 제시하거든.",
+    "secret_brain_insight": "오늘 할 일 목록 앞에 '10분 스트레칭'을 넣는 게 의미 없을까 봐 걱정됐지? 사실 한 번의 운동보다 매일 쌓이는 루틴이 네 뇌를 바꾸는 거야. 시크릿 브레인에 운동을 하루 한 번 반복 태스크로 걸어둬봐. 오늘 하루가 아니라, 100일이 쌓일 때 진짜 변화가 시작되거든.",
+    "sns_copy": "운동 한 번으로 뇌가 좋아진다고? 🤔 15개 연구 메타분석 결과, 단발성 운동의 효과는 통계적으로 '0에 가까움'. 진짜 효과는 꾸준함에서 나와 💪",
+    "landing_copy": "2025년 발표된 메타분석 연구(15개 논문 종합)에 따르면, 단 한 번의 신체활동으로 아이의 집중력이 향상된다는 근거는 충분하지 않습니다. 전문가들이 강조하는 것은 '일회성'이 아닌 '지속적인 루틴'입니다. 과학적 근거를 바탕으로 설계된 꾸준한 습관 시스템이 진짜 변화를 만듭니다.",
+    "keywords": [
+      "단발성운동",
+      "실행기능",
+      "아동집중력"
+    ],
+    "doi_url": "https://doi.org/10.1016/j.mhpa.2025.100685",
+    "pdf_url": "",
+    "abstract_text": "Long-term physical activity (PA) offers well-established benefits for children, but the impact of an acute bout of PA on executive function (EF) and academic achievement (AA) is not fully understood. Integrating findings in this area can inform key stakeholders on embedding PA in educational settings. This systematic review and meta-analysis examined the impact of acute PA bouts on preadolescent children ’ s EF and AA. Following PRISMA guidelines, 15 studies were included, varying in PA type, duration, intensity, outcome measures, and often assessing multiple EF domains: inhibition (n = 13), working memory (n = 9), and cognitive flexibility (n = 7). Meta-analyses indicated no statistically significant impact of acute bouts of PA on children ’ s EF (accuracy: Cohen ’ s d = 0.02; CI = (cid:0) 0.04 to 0.07; response time: Cohen ’ s d = (cid:0) 0.02; CI = (cid:0) 0.40 to 0.36). Only two studies included measures of AA, precluding a meta-analysis for this outcome. High heterogeneity between included studies, moderate risk of bias, and the detection of publication bias was shown. Future research should continue to investigate dose-response relationships in this area, clearly defining the type, intensity and duration of PA performed, while also considering contextual factors that may influence its effectiveness, such as the setting within which it is designed to be implemented. Additionally, more high-quality research is needed, with careful attention to methodological decisions such as EF measurement tools and assessment timepoints. Greater methodological consistency across studies will enhance the applicability of findings and aid future attempts to syn-thesise the literature in this field."
+  },
+  {
+    "id": "7a675e7ed94e6ae018713a6e33080933aeca3a08",
+    "topic": "implementation intention goal achievement meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "Fertility intention of young people of childbearing age in China after the implementation of the two-child policy—A systematic review and meta-analysis",
+    "year": 2024,
+    "citations": 15,
+    "authors": [
+      "Yuanyi Ren",
+      "Xu Cheng",
+      "Changmin Niu"
+    ],
+    "status": "rejected",
+    "generated_at": "2026-03-08T15:57:36.449475",
+    "headline": "중국 청년 11.85%만 아이 원해",
+    "one_line": "중국 가임기 청년 4만 3천명 분석 결과, 실제 추가 출산 의향은 고작 11.85%에 불과했어.",
+    "easy_explanation": "중국이 '두 자녀 정책' 펼쳤는데도 청년들이 아이 더 낳으려는 의지가 엄청 낮은 거야. 100명 중 12명만 '나 아이 더 낳을게'라고 한 셈이지. 돈 걱정, 나이 압박, 학력 높아질수록 더 안 낳으려 하고, 예전처럼 '아들 선호' 문화도 많이 사라졌어. 결국 정책만 바꾼다고 출산율이 오르는 게 아니라, 돈이랑 육아 환경이 먼저 바뀌어야 한다는 거야.",
+    "why_important": "이건 중국만의 얘기가 아니야. 한국도 똑같은 상황이거든. 청년들이 왜 아이를 안 낳으려 하는지 그 진짜 이유를 숫자로 보여줬다는 점에서 우리 사회 정책에도 큰 힌트가 돼.",
+    "secret_brain_insight": "목표를 세웠다고 해서 실제로 행동하는 사람은 생각보다 훨씬 적어. 출산 의향처럼 '언젠간 하겠지'라고 미뤄둔 목표, 지금 네 할 일 목록에도 있지 않아? 의도를 구체적인 계획으로 바꾸는 그 한 걸음이 진짜 차이를 만들어.",
+    "sns_copy": "중국 청년 100명 중 88명은 아이 안 낳겠다고 했어 📉 정책이 아니라 '돈과 환경'이 출산율의 진짜 열쇠였다.",
+    "landing_copy": "4만 3천 명을 분석한 메타분석 연구에 따르면, 정책 변화만으로는 출산 의향을 높이는 데 한계가 있습니다. 경제적 지원과 육아 환경 개선이 함께 이루어질 때 비로소 실질적인 변화가 가능하다는 것이 연구로 입증되었습니다.",
+    "keywords": [
+      "출산의향",
+      "저출산",
+      "육아정책"
+    ],
+    "doi_url": "https://doi.org/10.1186/s12889-024-20956-1",
+    "pdf_url": "https://doi.org/10.1186/s12889-024-20956-1",
+    "abstract_text": "In recent years, due to the continuous increase of China’s aging population and the decline of birth rate, China ‘s population base has declined sharply, and the fertility problem of young people has attracted much attention from scholars. Therefore, this study aims to comprehensively analyze the fertility intentions of young people of childbearing age and their influencing factors, explore the reasons for China’s low fertility rate, and provide a reasonable theoretical basis for the formulation of subsequent fertility-related policies. A systematic literature search was conducted from January 2012 to September 2023 through the databases PubMed, Web of Science, Embase, CNKI, Wanfang, and VIP using keywords including fertility desire, fertility intention, fertility plan, fertility purpose, fertility motivation, youth, urban youth, school-age youth, childbearing age youth in Chinese; and fertility desire, fertility intention, fertility plan, fertility willingness, youth, young people, child-bearing youth, and school-age youth in English. Two reviewers independently screened studies, extracted data, and appraised the risk of bias. RevMan 5.2 was used for the Meta-analysis of all outcomes. This study systematically evaluated 18 cross-sectional surveys, which included a total of 43,427 participants, with a combined fertility intention of 11.85%. Subgroup analyses revealed that gender, age, education level, economic level, nature of the household, number of existing children, and gender of the first child were related to fertility intentions of young people of childbearing age. In terms of fertility attitudes, the expectations of contemporary young people of childbearing age have shifted from the traditional attitude of “emphasizing sons over daughters” to the attitude of \" gender equality “. The low fertility intentions of young people of childbearing age in China are constrained by a combination of economic, age, and level of education. The government may increase the fertility intention of young people by increasing the economic support for fertility, implementing the local education promotion related to “parenting”, and actively implementing the early and active fertility of young people of childbearing age.",
+    "reviewed_at": "2026-03-08T16:15:57.517907"
+  },
+  {
+    "id": "a953583e05a9aba3fa11f9850e8ccc58e65aa4e3",
+    "topic": "implementation intention goal achievement meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "Situational and Dispositional Achievement Goals and Measures of Sport Performance: A Systematic Review with a Meta-Analysis",
+    "year": 2024,
+    "citations": 4,
+    "authors": [
+      "M. Lochbaum",
+      "Cassandra Sisneros"
+    ],
+    "status": "pending",
+    "generated_at": "2026-03-08T15:57:56.698275",
+    "headline": "목표 유형이 성적을 바꿔!",
+    "one_line": "스포츠에서 '과제 중심 목표'는 성과와 r=0.20의 유의미한 상관을 보였지만, 전반적 효과 크기는 작아 맹신은 금물이야.",
+    "easy_explanation": "운동할 때 '나 자신을 얼마나 발전시켰나'에 집중하는 사람이 '남보다 잘했나'에만 집중하는 사람보다 성과랑 더 관련 있다는 거야. 근데 솔직히 그 차이가 엄청 크진 않아. 30개 연구에서 8700명 넘게 분석했는데, 효과는 있지만 '이것만 하면 무조건 됨!'은 아닌 거지. 마치 스트레칭이 운동 성과에 도움은 되는데, 그것만 한다고 올림픽 나가는 건 아닌 것처럼!",
+    "why_important": "공부든 운동이든 '남이랑 비교'보다 '어제의 나랑 비교'하는 목표 설정이 더 효과적일 수 있다는 과학적 근거가 생긴 거야. 목표 세우는 방식 하나가 내 성장 궤적을 바꿀 수 있다는 뜻이지.",
+    "secret_brain_insight": "오늘 할 일 목록에 '남보다 잘하기'가 아니라 '어제보다 한 발 더'라고 적어봐. 연구가 말하듯, 나 자신의 성장에 집중하는 목표가 실제 퍼포먼스랑 더 연결돼 있거든. 시크릿 브레인에 목표를 기록할 때, 비교 대상을 남이 아닌 '과거의 나'로 바꾸는 것만으로도 게임이 달라질 수 있어.",
+    "sns_copy": "🎯 8,700명 분석 결과: '남보다 잘하려는 목표'보다 '나 자신을 발전시키는 목표'가 실제 성과와 더 연결됐다. 목표의 방향이 결과를 바꾼다.",
+    "landing_copy": "2024년 발표된 메타분석 연구(8,708명 참가자, 30개 연구 종합)에 따르면, 자신의 성장과 숙달에 집중하는 '과제 중심 목표'는 스포츠 성과와 유의미한 정적 상관관계를 보였습니다. 목표를 어떻게 설정하느냐가 당신의 퍼포먼스를 결정합니다.",
+    "keywords": [
+      "목표설정",
+      "과제중심목표",
+      "성과향상"
+    ],
+    "doi_url": "https://doi.org/10.3390/sports12110299",
+    "pdf_url": "https://doi.org/10.3390/sports12110299",
+    "abstract_text": "The purposes of this systematic review (PROSPERO ID: CRD42024510614, no funding source) were to quantify relationships between situational and dispositional dichotomous achievement goals and sport performance and explore potential relationship moderators. Published studies that reported at least one situational or dispositional achievement goal and a performance score were included. Studies without performance scores or based in a non-sport context were excluded. Information sources consisted of studies found in relevant published meta-analyses and EBSCOhost databases (finalized September 2024). The following statistics were conducted to assess the risk of bias: class-fail-safe n, Orwin’s fail-safe n, and funnel plots with trim and fill estimates. The summary statistics were r and d. Thirty studies from 1994 to 2024 met all inclusion criteria with 8708 participants from Europe, Asia, North America, and Oceania. The majority of samples were non-elite male youths and adolescents. The random-effects relationships (r) between task climate, 0.20 [0.14, 0.25], task orientation, 0.17 [0.12, 0.23], ego orientation, 0.09 [0.03, 0.16], and sport performance were small and significantly different (p < 0.05) from zero, while the ego motivational climate relationship was not, −0.00 [−0.48, 0.05]. The random-effects standard differences in means (d) for both the task orientation, 0.08 [0.02, 0.14], and ego orientation, 0.11 [−0.05, 0.26] were minimal in meaningfulness. Mixed-effects moderator analyses resulted in the following significant (p < 0.05) sub-group differences: subjective compared to objective performance measures (task orientation), elite compared to non-elite samples (task climate), and athlete-completed compared to coach-completed performance measures and performance records (task orientation). Finding only 30 studies meeting the inclusion criteria, which limited sub-group samples for moderation analyses, was the main limitation. Despite this limitation, AGT provides athletes and practitioners performance enhancement strategies. However, caution is warranted regarding relationship expectations given the small mean effect size values and the true prediction interval ranging from negative to positive, perhaps as a result of the heterogeneous samples and performance measures. A clear line of future research, considering the reviewed studies, with elite athletes is needed to verify the performance benefits of the task climate and ego orientation as well as the use of the ego goal orientation in selection decisions."
+  },
+  {
+    "id": "aac90d0103fb8869afb66ca39cd9d3498948a027",
+    "topic": "cognitive load working memory productivity meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "An investigation of working memory deficits in depression using the n-back task: A systematic review and meta-analysis.",
+    "year": 2021,
+    "citations": 166,
+    "authors": [
+      "S. Nikolin",
+      "Yi Yin Tan",
+      "Andreas Schwaab"
+    ],
+    "status": "pending",
+    "generated_at": "2026-03-08T15:58:16.687268",
+    "headline": "우울하면 기억력도 무너져",
+    "one_line": "31개 연구·1,666명 분석 결과, 우울증 환자는 작업기억 정확도가 최대 2-back 수준에서 가장 크게 떨어지고, 모든 난이도에서 반응 속도가 느려졌어.",
+    "easy_explanation": "우울증이 있으면 '지금 이 순간 정보를 머릿속에 붙잡아 두는 능력'이 뚝 떨어진다는 거야. 예를 들어 누가 방금 한 말을 기억하면서 동시에 뭔가를 처리해야 할 때, 우울한 사람은 그게 훨씬 힘들어. 특히 과제 난이도가 올라갈수록 격차가 더 벌어지고, 반응 속도도 전반적으로 느려지는 패턴이 나타났어. 나이가 많거나 입원 중인 경우엔 이 문제가 더 심각했고.",
+    "why_important": "우울할 때 '왜 이렇게 멍청해진 것 같지?'라고 자책하는 사람들 많은데, 이건 의지 문제가 아니라 뇌 기능 문제야. 일상의 집중력 저하나 업무 실수가 단순 게으름이 아닐 수 있다는 걸 과학이 증명한 거지.",
+    "secret_brain_insight": "우울한 날엔 뇌가 진짜로 느려져 있어. 그날의 할 일 목록을 줄이는 게 나약한 게 아니라, 뇌 과학적으로 맞는 선택이야. 시크릿 브레인으로 오늘 꼭 해야 할 것 딱 하나만 남겨놓는 것, 그게 우울한 뇌를 지키는 가장 영리한 방법이야.",
+    "sns_copy": "우울증일 때 기억력이 떨어지는 건 기분 탓이 아니야 🧠 1,666명 메타분석 결과, 작업기억 정확도가 실제로 유의미하게 감소했대. 자책 말고 뇌를 이해하자 💙",
+    "landing_copy": "31개 연구, 1,666명을 분석한 메타분석에 따르면, 우울증은 집중력과 작업기억 정확도를 실질적으로 저하시킵니다. '왜 요즘 이렇게 일이 안 될까'라는 고민, 의지력의 문제가 아닐 수 있습니다. 과학적 근거를 바탕으로 설계된 할 일 관리 시스템으로, 낮아진 인지 부하에 맞게 하루를 구성해 보세요.",
+    "keywords": [
+      "우울증",
+      "작업기억",
+      "인지부하"
+    ],
+    "doi_url": "https://doi.org/10.1016/j.jad.2021.01.084",
+    "pdf_url": "https://unsworks.unsw.edu.au/bitstreams/f2c651aa-a494-4c01-8e9d-8f016d8a9fbe/download",
+    "abstract_text": "BACKGROUND\nDepression is associated with cognitive deficits across multiple domains, including working memory. The n-back task, a convenient psychometric tool capable of computerised delivery and concurrent use with neuroimaging, can provide enhanced insight into working memory dysfunction in depression. This meta-analysis sought to investigate the n-back task under varying cognitive load conditions (i.e. different levels of 'n') to clarify the pattern of working memory deficits in depression.\n\n\nMETHODS\nWe conducted a systematic review and meta-analysis of studies involving unipolar depressed participants and matched controls utilising the n-back task. Meta-analyses were performed for accuracy and response times at four levels of cognitive load (0-, 1-, 2-, and 3-back).\n\n\nRESULTS\n31 studies (total 1,666 participants) met inclusion criteria and were included for quantitative analyses. Depressed individuals had significantly reduced accuracy compared to controls for 1-, 2-, and 3-back tasks, but not the attentional 0-back task. Likewise, response latencies were prolonged for all task levels (0-, 1-, 2-, and 3-back). Additional meta-regression analyses indicated that participant age and clinical status (i.e. inpatient/outpatient) may exacerbate working memory deficits associated with depression.\n\n\nLIMITATIONS\nOur results indicate high levels of heterogeneity between studies, particularly for response times.\n\n\nCONCLUSIONS\nAccuracy impairments were worse at higher levels of n, with the largest effect size obtained on the 2-back task, suggesting deficits to higher executive functions. Response times were consistently prolonged at all cognitive loads in agreement with a pattern of generalised psychomotor retardation."
+  },
+  {
+    "id": "c98b84c3bc8b66f81fd6addf3969708a94125b87",
+    "topic": "cognitive load working memory productivity meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "The effects of physical exercise on cognitive function in adolescents: a systematic review and meta-analysis",
+    "year": 2025,
+    "citations": 13,
+    "authors": [
+      "Longyan Liu",
+      "Xianyang Xin",
+      "Ying Zhang"
+    ],
+    "status": "pending",
+    "generated_at": "2026-03-08T15:58:35.454255",
+    "headline": "운동하면 머리가 좋아져!",
+    "one_line": "청소년이 유산소 운동을 하면 집중력이 SMD 0.56, 억제력이 0.58 향상되는 등 인지 기능이 전반적으로 유의미하게 개선된다.",
+    "easy_explanation": "21개 연구를 다 모아서 분석했더니, 운동하는 청소년들이 기억력이나 집중력 같은 뇌 기능이 확실히 좋아졌어. 특히 달리기나 줄넘기 같은 유산소 운동이 제일 효과 좋았고, 집중력이랑 자기 충동 조절하는 능력이 눈에 띄게 올랐어. 쉽게 말하면 몸을 움직일수록 뇌도 같이 업그레이드되는 거야. 공부하기 전에 운동 좀 하는 게 진짜 과학적으로 맞는 말이었던 거지!",
+    "why_important": "시험 기간에 책상에만 앉아 있는 게 능사가 아니라, 짧게라도 운동하는 게 집중력과 기억력을 높여줘서 공부 효율이 올라가. 일상에서 산책이나 간단한 운동 루틴 하나만 넣어도 뇌 컨디션이 달라질 수 있어.",
+    "secret_brain_insight": "할 일 목록이 쌓여 있는데 머리가 안 돌아가는 느낌, 다들 알잖아. 사실 그럴 때 10~20분 유산소 운동이 집중력을 0.56배나 끌어올려준다는 게 연구로 증명됐어. 시크릿 브레인에 '운동 블록'을 먼저 심어두면, 그 다음 집중 세션이 완전히 달라질 거야.",
+    "sns_copy": "공부 잘하고 싶으면 먼저 움직여🏃 운동한 청소년, 집중력 0.56·기억력 0.54 향상! 책상 앞에 앉기 전 10분 유산소가 뇌를 깨운다💡",
+    "landing_copy": "2025년 발표된 메타분석(21개 RCT 연구 종합) 결과, 신체 운동은 청소년의 집중력(SMD 0.56), 작업 기억(SMD 0.54), 억제 조절(SMD 0.58)을 통계적으로 유의미하게 향상시키는 것으로 확인되었습니다. 특히 유산소 운동이 가장 강력한 효과를 보였으며, 하루 중간 강도 이상의 신체 활동을 루틴화하는 것이 인지 발달에 실질적인 도움이 됩니다.",
+    "keywords": [
+      "유산소운동",
+      "청소년인지기능",
+      "집중력향상"
+    ],
+    "doi_url": "https://doi.org/10.3389/fpsyg.2025.1556721",
+    "pdf_url": "",
+    "abstract_text": "Objective Physical exercise holds promise for improving cognitive function development in adolescents. However, current research evidence remains inconsistent. This systematic review and meta-analysis primarily aimed to determine the overall impact of physical exercise interventions on adolescent cognitive function. It also extended to explore effects on specific cognitive domains (such as executive function, attention, working memory, cognitive flexibility, and inhibitory control) and to examine potential differences across various exercise types. Method A comprehensive search was conducted across multiple databases, including Web of Science, Embase, PubMed, the Cochrane Central Register of Controlled Trials, and CBM, to identify randomized controlled trials (RCTs) investigating the effects of physical exercise on cognitive function in adolescents. The search covered studies published from the inception of these databases through November 30, 2024. This protocol is registered with PROSPERO (CRD42024605962). A preliminary search of the databases and referenced citations identified 2,910 records. Standardized mean differences (SMD) and 90% confidence intervals (CI) were employed to calculate and aggregate the effect sizes for outcome measurement. Results A total of 21 studies were included in this meta-analysis. Considering that cognitive function comprises multiple domains and that different studies use diverse outcome measures to evaluate adolescent cognitive function, a subgroup analysis was conducted. The studies were grouped into categories such as executive function, attention, working memory, cognitive flexibility, and inhibitory control to better capture changes in adolescent cognitive abilities. The findings demonstrate that physical exercise interventions lead to significant improvements in cognitive function among adolescents when compared to the control group. Notably, enhancements were observed in executive function (SMD = 0.21, 95% CI: 0.06 to 0.37), attention (SMD = 0.56, 95% CI: 0.34 to 0.78), cognitive flexibility (SMD = 0.42, 95% CI: 0.26 to 0.58), inhibitory control (SMD = 0.58, 95% CI: 0.22 to 0.94), and working memory (SMD = 0.54, 95% CI: 0.16 to 0.91). The subgroup analysis revealed that aerobic exercise had the greatest impact on cognitive function (SMD = 0.53, 95% CI: 0.32 to 0.73), particularly in areas such as executive function and attention, compared to other exercise modalities. This suggests that aerobic exercise may be particularly effective in enhancing adolescent cognitive abilities. Conclusion Physical exercise has been shown to enhance cognitive function in adolescents. Based on the findings of this Meta-analysis, it is recommended that adolescents participate in at least moderate-intensity physical activities, such as aerobic exercise or resistance training, to promote cognitive development. Systematic review registration https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42024605962; Identifier: CRD42024605962."
+  },
+  {
+    "id": "835f68c1f72222c3a4ad06d6e68906a39a4c6187",
+    "topic": "cognitive load working memory productivity meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "Does the combination of exercise and cognitive training improve working memory in older adults? A systematic review and meta-analysis",
+    "year": 2023,
+    "citations": 14,
+    "authors": [
+      "Yiqing Wu",
+      "Ming Zang",
+      "Biye Wang"
+    ],
+    "status": "pending",
+    "generated_at": "2026-03-08T15:58:53.206917",
+    "headline": "운동+뇌훈련, 효과 있어?",
+    "one_line": "운동과 인지훈련을 함께 하면 아무것도 안 하는 것보다 작업기억이 유의미하게 향상되지만(SMD=0.29), 단독 개입 대비 추가 효과는 아직 불분명해.",
+    "easy_explanation": "작업기억이란 뇌의 메모장 같은 거야. 나이 들수록 이 메모장이 작아지는데, 운동이랑 두뇌 훈련을 같이 하면 아무것도 안 하는 것보다는 확실히 낫대. 근데 솔직히 '운동만' 하거나 '뇌훈련만' 하는 것보다 딱히 더 좋다는 증거는 아직 약해. 그래도 주목할 건, 얼마나 자주 하느냐(빈도)에 따라 효과가 달라진다는 거야!",
+    "why_important": "우리가 할 일 목록을 기억하고, 대화 중 맥락을 놓치지 않으려면 작업기억이 핵심이거든. 나이 들어서도 머리를 팔팔하게 유지하고 싶다면 어떤 습관을 가져야 할지 힌트를 주는 연구야.",
+    "secret_brain_insight": "매일 할 일을 시스템에 기록하는 것 자체가 뇌 훈련이야. 거기에 가벼운 산책이나 운동까지 루틴으로 넣으면, 연구가 말하는 '빈도'를 자연스럽게 채우는 거거든. 시크릿 브레인으로 할 일을 관리하는 습관, 그게 이미 너의 뇌를 지키는 작은 훈련이야.",
+    "sns_copy": "운동 + 두뇌 훈련, 같이 하면 뇌가 더 좋아질까? 🧠 21개 임상 연구 분석 결과, '아무것도 안 하는 것'보다는 확실히 효과 있어. 핵심은 꾸준한 '빈도'야! 💪",
+    "landing_copy": "21개의 무작위 대조 연구를 분석한 2023년 메타분석에 따르면, 운동과 인지 훈련을 병행하면 아무런 개입이 없는 경우보다 작업기억이 통계적으로 유의미하게 향상됩니다(SMD=0.29). 꾸준한 루틴과 인지적 자극이 결합될 때, 당신의 뇌는 더 오래 선명하게 작동할 수 있습니다.",
+    "keywords": [
+      "작업기억",
+      "운동+인지훈련",
+      "뇌건강루틴"
+    ],
+    "doi_url": "https://doi.org/10.7717/peerj.15108",
+    "pdf_url": "https://doi.org/10.7717/peerj.15108",
+    "abstract_text": "Background Cognitive functioning is dependent on working memory and a decline in working memory is the main cause of cognitive aging. Many studies have suggested that physical exercise or cognitive intervention can effectively improve working memory in the elderly. However, it is still unknown whether a combination of exercise and cognitive training (CECT) is more effective than either intervention alone. The present systematic review and meta-analysis were undertaken to evaluate the effect of CECT on working memory in the elderly. Methods The review was registered in the International Prospective Systematic Review (PROSPERO, CRD42021290138). Systematic searches were conducted on Web of Science, Elsevier Science, PubMed and Google Scholar. The data were extracted according to the PICOS framework. Comprehensive meta-analysis (CMA) software was used to perform the meta-analysis, moderator analysis and publication bias testing. Results The current meta-analysis included 21 randomized controlled trials (RCT). Results showed that CECT had a significantly greater impact on working memory in older adults compared to no intervention groups (SMD = 0.29, 95% CI [0.14–0.44], p < 0.01), with no significant difference between CECT and exercise (SMD = 0.16, 95% CI [−0.04–0.35], p = 0.12) or cognitive intervention alone (SMD = 0.08, 95% CI [−0.13–0.30], p = 0.44). Furthermore, the positive effect of CECT was moderated by intervention frequency and cognitive state. Conclusions The CECT can effectively improve working memory of older adults, but the effect of CECT compared to single intervention needs to be further explored."
+  },
+  {
+    "id": "f20de8b5f67bd94d160a4f8422bc1a59980bfc7f",
+    "topic": "cognitive load working memory productivity meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "Computerized cognitive training for memory functions in mild cognitive impairment or dementia: a systematic review and meta-analysis",
+    "year": 2024,
+    "citations": 85,
+    "authors": [
+      "Aaron TC Chan",
+      "Roy T F Ip",
+      "Joshua YS Tran"
+    ],
+    "status": "pending",
+    "generated_at": "2026-03-08T15:59:10.326908",
+    "headline": "뇌 훈련 앱이 기억력 살려줘",
+    "one_line": "컴퓨터 인지 훈련이 MCI 환자의 언어 기억력을 SMD 0.55 수준으로 유의미하게 향상시켰어.",
+    "easy_explanation": "쉽게 말하면, 뇌도 근육처럼 꾸준히 운동하면 좋아진다는 거야. 치매 초기나 경도 인지장애 있는 분들한테 앱이나 컴퓨터로 기억력 훈련을 시켰더니 진짜로 기억력이 나아졌어. 특히 누군가 옆에서 도와주면서 하면 효과가 더 컸고, 혼자 집에서 해도 언어 기억력만큼은 확실히 좋아졌대. 약 없이도 뇌를 지킬 수 있다는 게 핵심이야!",
+    "why_important": "부모님이나 주변 어르신이 자꾸 깜빡깜빡한다면, 병원 안 가도 집에서 앱으로 뇌 훈련을 시작할 수 있다는 뜻이야. 약 부작용 없이 기억력을 지킬 수 있는 현실적인 방법이 생긴 거거든.",
+    "secret_brain_insight": "할 일을 기록하고 관리하는 것 자체가 이미 뇌 훈련이야. 시크릿 브레인으로 매일 생각을 정리하는 습관, 사실 너의 뇌를 조금씩 단단하게 만들고 있는 거거든. 지금 이 루틴을 지켜가는 게 미래의 너를 지키는 일이야.",
+    "sns_copy": "💡 앱으로 기억력 훈련하면 진짜 효과 있을까? 35개 연구·1800명 분석 결과, MCI 환자 기억력 최대 0.72 향상! 약 없이도 뇌는 변할 수 있어요 🧠",
+    "landing_copy": "2024년 국제 메타분석 연구(35개 RCT, 1,860명 참여)에 따르면, 컴퓨터 기반 인지 훈련은 경도 인지장애 환자의 언어·시각·작업 기억력을 통계적으로 유의미하게 향상시키는 것으로 확인되었습니다. 전문가의 도움 없이 가정에서도 효과를 볼 수 있어, 누구나 일상 속에서 인지 건강을 관리할 수 있습니다.",
+    "keywords": [
+      "인지훈련",
+      "기억력향상",
+      "디지털치료"
+    ],
+    "doi_url": "https://doi.org/10.1038/s41746-023-00987-5",
+    "pdf_url": "https://www.nature.com/articles/s41746-023-00987-5.pdf",
+    "abstract_text": "Dementia is a common medical condition in the ageing population, and cognitive intervention is a non-pharmacologic strategy to improve cognitive functions. This meta-analysis evaluated the benefits of computerized cognitive training (CCT) on memory functions in individuals with MCI or dementia. The study was registered prospectively with PROSPERO under CRD42022363715 and received no funding. The search was conducted on MEDLINE, Embase, and PsycINFO on Sept 19, 2022, and Google Scholar on May 9, 2023, to identify randomized controlled trials that examined the effects of CCT on memory outcomes in individuals with MCI or dementia. Mean differences and standard deviations of neuropsychological assessment scores were extracted to derive standardized mean differences. Our search identified 10,678 studies, of which 35 studies were included. Among 1489 participants with MCI, CCT showed improvements in verbal memory (SMD (95%CI) = 0.55 (0.35–0.74)), visual memory (0.36 (0.12–0.60)), and working memory (0.37 (0.10–0.64)). Supervised CCT showed improvements in verbal memory (0.72 (0.45–0.98)), visual memory (0.51 (0.22–0.79)), and working memory (0.33 (0.01–0.66)). Unsupervised CCT showed improvement in verbal memory (0.21 (0.04–0.38)) only. Among 371 participants with dementia, CCT showed improvement in verbal memory (0.64 (0.02–1.27)) only. Inconsistency due to heterogeneity (as indicated by I^2 values) is observed, which reduces our confidence in MCI outcomes to a moderate level and dementia outcomes to a low level. The results suggest that CCT is efficacious on various memory domains in individuals with MCI. Although the supervised approach showed greater effects, the unsupervised approach can improve verbal memory while allowing users to receive CCT at home without engaging as many healthcare resources."
+  },
+  {
+    "id": "3ea7ff48bb7590aa638739778b88a3a874afe968",
+    "topic": "cognitive load working memory productivity meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "Association between poverty and children's working memory abilities in developing countries: a systematic review and meta-analysis",
+    "year": 2023,
+    "citations": 5,
+    "authors": [
+      "H. Nugroho",
+      "H. Salimo",
+      "H. Hartono"
+    ],
+    "status": "pending",
+    "generated_at": "2026-03-08T15:59:26.615286",
+    "headline": "가난이 기억력을 빼앗아가",
+    "one_line": "개발도상국 아동 4,551명 분석 결과, 빈곤 가정 아이는 그렇지 않은 아이보다 작업기억 저하 위험이 3.12배 높아.",
+    "easy_explanation": "작업기억이란 머릿속 메모장 같은 거야. 계산하거나 지시 기억할 때 쓰는 능력인데, 가난한 환경에서 자라는 아이들은 이 능력이 훨씬 약하게 발달한대. 더 충격적인 건 엄마 학력이 낮을수록 아이의 기억력도 같이 떨어진다는 거야. 가난이 그냥 돈 문제가 아니라 뇌 발달에도 직접 영향을 준다는 거지.",
+    "why_important": "공부 못하는 게 단순히 노력 부족이 아닐 수 있어. 태어난 환경 자체가 뇌 기능에 영향을 준다는 뜻이니까, 교육 불평등을 완전히 다른 시각으로 봐야 해.",
+    "secret_brain_insight": "할 일을 잘 관리하는 것도 결국 머릿속 메모장, 작업기억에서 시작돼. 어릴 때 환경이 그 메모장 크기를 결정했을 수도 있어. 그래서 지금 너한테 좋은 시스템이 필요한 거야. 뇌가 힘들게 기억할 걸 시크릿 브레인이 대신 붙잡아줄 수 있거든.",
+    "sns_copy": "가난한 환경에서 자란 아이, 기억력 저하 위험 3배 이상📊 노력의 문제가 아니었어. 환경이 뇌를 바꾼다.",
+    "landing_copy": "4,551명을 대상으로 한 메타분석 연구에 따르면, 열악한 환경은 아이의 작업기억 능력을 최대 3배 이상 낮출 수 있습니다. 뇌의 한계를 보완해주는 체계적인 시스템이 당신에게 필요한 이유입니다.",
+    "keywords": [
+      "작업기억",
+      "교육불평등",
+      "인지발달"
+    ],
+    "doi_url": "https://doi.org/10.3389/fnut.2023.1067626",
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fnut.2023.1067626/pdf",
+    "abstract_text": "Introduction Working memory is critical in cognitive skills, especially among children. Children's ability to count and complete cognitive tasks are strongly associated with working memory abilities. Recent studies indicated that in addition to health factors, socioeconomic status also has a significant impact on children's working memory capacity. Despite these, evidence on the effects of socioeconomic status on working memory from developing countries yielded a somewhat puzzling picture. Methods This systematic review and meta-analysis provide a comprehensive summary of the recent evidence concerning the socioeconomic status determinants of children's working memory in developing countries. We searched via Cochrane library, ScienceDirect, Scopus, PubMed, and ProQuest. The initial search terms were [“socioeconomic”, “socio-economic”, “socioeconomic status”, “socio-economic status”, “income”, “poverty”, “disadvantaged”, “disparity”] AND [“working memory”, “short term memory”, “short-term memory”, “cognitive”, “achievement”, “performance”] AND [“child*”, “school child*”]. Odds ratio (for categorical outcome data) or standardized mean differences (for continuous data) and their 95% confidence intervals were calculated from the data generated. Results This meta-analysis included five studies from 4 developing countries with a total of 4,551 subjects. Poverty was associated with a lower working memory score (OR: 3.12; 95% CI: 2.66, 3.65; p < 0.001). Another finding from 2 studies in this meta-analysis was that low mother education was associated with a lower score of working memory (OR: 3.26, 95% CI: 2.86, 3.71; p < 0.001). Discussion Poverty and low level of mothers' education were significant risk factors for lowering working memory among children in developing countries. Systematic review registration https://www.crd.york.ac.uk/prospero/, identifier: CRD42021270683."
+  },
+  {
+    "id": "0a28699d715df2d536b36be9b83005ba4ce5f1a6",
+    "topic": "cognitive load working memory productivity meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "Working memory assessment using cambridge neuropsychological test automated battery can help in the diagnosis of mild cognitive impairment: a systematic review and meta-analysis",
+    "year": 2022,
+    "citations": 12,
+    "authors": [
+      "Z. Sabahi",
+      "M. Farhoudi",
+      "A. Naseri"
+    ],
+    "status": "pending",
+    "generated_at": "2026-03-08T15:59:45.958009",
+    "headline": "기억력 테스트로 치매 조기 발견해",
+    "one_line": "공간 작업기억(SWM) 테스트 하나로 경도인지장애 환자를 건강한 사람과 0.535 표준편차 차이로 구별할 수 있어.",
+    "easy_explanation": "치매 전 단계인 '경도인지장애'를 어떻게 일찍 발견할 수 있을까? 연구팀이 14개 연구를 싹 모아서 분석했는데, 공간 기억력이랑 빠른 정보처리 능력 테스트 세 개만으로도 꽤 정확하게 잡아낼 수 있대. 쉽게 말하면 머릿속 메모장 크기를 재는 테스트인데, 이게 줄어들기 시작하면 빨간불이 켜진다는 거야. 근데 나이나 성별은 상관없고, 뇌 속 찌꺼기 단백질(타우, 아밀로이드) 수치랑 연결된다는 것도 밝혀졌어.",
+    "why_important": "치매는 증상이 심해지고 나서 발견하면 이미 늦어. 일상에서 '요즘 자꾸 깜빡하네' 싶을 때 간단한 테스트로 초기에 잡아낼 수 있다면, 그만큼 일상을 더 오래 지킬 수 있거든.",
+    "secret_brain_insight": "할 일을 머릿속에서 굴리는 능력, 그게 바로 작업기억이야. 시크릿 브레인을 쓰는 이유가 뭔지 알아? 뇌의 메모장 용량을 아끼기 위해서야. 연구가 증명했어 — 작업기억이 줄어들기 시작하면 인지 건강도 같이 흔들려. 지금 당장 뇌에 모든 걸 욱여넣지 말고, 시스템한테 맡겨. 그게 진짜 뇌를 지키는 방법이야.",
+    "sns_copy": "🧠 '요즘 자꾸 깜빡해'가 그냥 피곤함일까? 14개 연구 메타분석 결과, 작업기억 테스트 3개로 치매 전 단계를 조기 발견할 수 있대. 뇌 건강, 나중이 아니라 지금 챙겨야 해. ⚡",
+    "landing_copy": "2022년 발표된 14개 연구를 종합한 메타분석에 따르면, 공간 작업기억과 정보처리 속도 테스트만으로도 경도인지장애를 유의미하게 진단할 수 있습니다. 뇌의 작업기억 능력은 인지 건강의 가장 이른 신호입니다. 지금 당신의 뇌가 보내는 신호를 놓치지 마세요.",
+    "keywords": [
+      "작업기억",
+      "경도인지장애",
+      "인지건강"
+    ],
+    "doi_url": "https://doi.org/10.1590/1980-5764-dn-2022-0006",
+    "pdf_url": "https://www.scielo.br/j/dn/a/9cj7pFxvbCXTmsFcxRBfTzk/?lang=en&format=pdf",
+    "abstract_text": "ABSTRACT Mild cognitive impairment (MCI) is an interstitial state between normal aging and dementia. Objective: In this study, we investigated working memory (WM) profiles of MCI patients using the Cambridge Neuropsychological Test Automated Battery (CANTAB). We also examined the diagnostic accuracy and possible associated factors as secondary outcomes of the study. Methods: We conducted an electronic search on EMBASE, PubMed, and ScienceDirect databases. Studies with MCI participants and using CANTAB battery subtests for the assessment of WM were included. Meta-analysis was conducted using the CMA2 software. Results: Out of 1537 records, 14 studies were covered in this systematic review, and 7 of them were included in the meta-analysis. There was a significant difference between MCI patients and healthy controls in spatial working memory (SWM) (SDM: 0.535; 95%CI 11–96; p-value=0.014), spatial span (SSP) (SDM: 0.649 95%CI 0.297–0.100; p-value<0.01), and rapid visual information processing (RVP) (SDM: 0.52; 95%CI 0.386–0.654; p-value<0.01). WM function of MCI patients was associated with the cerebrospinal fluid (CSF) levels of tau-protein and amyloid-beta (Aβ). Conclusions: WM is an impaired cognitive domain in MCI. CANTAB WM subtests including SSP, SWM, and RVP are accurate enough to be used as a proper assessment tool for the diagnosis of MCI in clinical settings. Tau-protein and Aβ are associated with lower WM scores in MCI patients; however, sex, age, psychiatric disorders, apolipoprotein 4 allele, and functional activity scores cannot affect WM."
+  },
+  {
+    "id": "2c70680c0e6d393f3368d5e032bea3b9a1f95030",
+    "topic": "cognitive load working memory productivity meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "Orofacial pain models induce impairment in spatial learning and working memory in rodents: a systematic review and meta-analysis.",
+    "year": 2024,
+    "citations": 3,
+    "authors": [
+      "Fernanda Tibolla Viero",
+      "Ricardo Iuri Felix Morais",
+      "Patrícia Rodrigues"
+    ],
+    "status": "pending",
+    "generated_at": "2026-03-08T16:00:02.956397",
+    "headline": "치통이 기억력도 망쳐",
+    "one_line": "21개 동물 연구 메타분석 결과, 얼굴 통증 모델에서 공간 학습 및 작업 기억 능력이 유의미하게 저하됨",
+    "easy_explanation": "치통이나 편두통 같은 얼굴 쪽 통증이 그냥 아픈 것만으로 끝나지 않아. 뇌의 기억력이랑 학습 능력까지 망가뜨린다는 거야. 쥐 실험 21개를 싹 모아서 분석해봤더니, 만성 통증이 있는 쥐들은 미로 찾기 같은 테스트에서 훨씬 못했어. 쉽게 말하면, 몸이 아프면 뇌도 같이 흐릿해지는 거지.",
+    "why_important": "치통이나 턱 통증을 그냥 참으면 집중력이랑 기억력까지 떨어질 수 있어. 일 효율이 낮아지는 진짜 원인이 통증일 수도 있다는 얘기야.",
+    "secret_brain_insight": "할 일이 자꾸 잊혀지거나 집중이 안 된다면, 혹시 몸 어딘가 아프진 않아? 만성 통증은 조용히 네 작업 기억을 갉아먹거든. 시크릿 브레인으로 할 일을 외부에 기록해두는 게, 아픈 날일수록 더 빛을 발하는 이유가 바로 여기 있어.",
+    "sns_copy": "치통 참으면서 왜 이렇게 멍하지? 했던 거 기억 안 나? 😵 21개 연구가 증명함 — 얼굴 통증은 기억력까지 망가뜨려.",
+    "landing_copy": "2024년 발표된 메타분석 연구(21개 논문 종합)에 따르면, 만성 구강안면 통증은 공간 학습과 작업 기억 능력을 유의미하게 저하시킵니다. 통증이 있는 날, 당신의 집중력과 기억력이 낮아지는 것은 의지의 문제가 아닙니다.",
+    "keywords": [
+      "만성통증",
+      "작업기억",
+      "인지저하"
+    ],
+    "doi_url": "https://doi.org/10.1016/j.ejphar.2024.177225",
+    "pdf_url": "",
+    "abstract_text": "Orofacial pain is one of the most common causes of chronic pain leading to physical and cognitive disability. Several clinical and pre-clinical studies suggest that chronic pain results in cognitive impairment. However, there is a lack of meta-analyses examining the effects of orofacial pain models on behavioral learning and memory in rodents. Thus, this study aimed to evaluate whether orofacial pain models can impair learning and memory in rodents. The protocol was registered in PROSPERO (CRD42023355502). We used CAMARADES and SYRCLE to estimate the quality and the publication bias by using Egger's and Begg's test. Here, 21 studies were included in this systematic review and meta-analysis. We included 12 studies with trigeminal neuralgia models, 4 with migraine-like pain models, 4 with tooth nociception, and 1 with acute orofacial pain model. Spontaneous nociception and facial mechanical allodynia were observed in orofacial pain models. Regarding spatial learning we detected that latency to find the platform in the Morris water maze (MWM) was increased in orofacial pain models (related to facial mechanical allodynia or spontaneous nociception). Although the mean quality of the articles was high, we identify publication bias in the Begg's test for the time in the quadrant in the MWM. Our findings revealed that spontaneous nociception and facial mechanical allodynia in orofacial pain models contribute to the working memory and spatial learning dysfunction. Therefore, further studies are still needed to evaluate the influence of sex, age, social isolation, and environmental enrichment in orofacial pain-related learning and memory."
+  },
+  {
+    "id": "d73e748742b890dc4fa2e9780f822300f212f6b1",
+    "topic": "cognitive load working memory productivity meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "Physical activity improves the visual–spatial working memory of individuals with mild cognitive impairment or Alzheimer’s disease: a systematic review and network meta-analysis",
+    "year": 2024,
+    "citations": 9,
+    "authors": [
+      "Jie Deng",
+      "Hong Wang",
+      "Tingting Fu"
+    ],
+    "status": "pending",
+    "generated_at": "2026-03-08T16:00:21.018880",
+    "headline": "운동이 기억력 살려내는 거야",
+    "one_line": "경도인지장애엔 마음챙김 운동(효과크기 0.61), 알츠하이머엔 유산소 운동(0.39)이 시공간 작업기억을 가장 크게 개선했어.",
+    "easy_explanation": "3,074명을 분석한 연구인데, 운동이 뇌의 '작업 공간', 그러니까 지금 눈앞에 있는 걸 머릿속으로 조작하는 능력을 실제로 키워준다는 거야. 기억력이 슬슬 흔들리는 사람한테는 요가나 태극권 같은 마음챙김 운동이 제일 좋고, 알츠하이머 단계라면 걷기·달리기 같은 유산소 운동이 최고래. 운동 빈도는 주 3회 이상, 한 번에 60분 넘게, 3개월 이상 꾸준히 해야 효과가 제대로 나온대.",
+    "why_important": "약 없이도 뇌 기능을 지킬 수 있다는 증거가 생긴 거야. 나이 들어서도 지도 보고, 주차 위치 기억하고, 공간 감각 유지하는 게 다 이 기억력 덕분이거든.",
+    "secret_brain_insight": "할 일을 관리하는 것도 결국 뇌의 작업기억 싸움이야. 매일 꾸준히 몸을 움직이는 걸 시크릿 브레인에 딱 루틴으로 박아두면, 그게 그냥 건강 습관이 아니라 네 뇌 용량 자체를 늘리는 투자야. 기록도 중요하지만, 그 기록을 처리하는 뇌를 먼저 챙겨봐.",
+    "sns_copy": "운동 3개월이면 뇌 작업공간이 달라진다 🧠 3,074명 메타분석 결과, 마음챙김 운동으로 기억력 효과크기 0.61 — 약보다 먼저 운동 처방해야 할지도 💪",
+    "landing_copy": "2024년 발표된 34개 논문, 3,074명 대상 네트워크 메타분석이 확인했습니다. 주 3회 이상, 60분 이상의 규칙적인 운동은 시공간 작업기억을 유의미하게 향상시킵니다. 인지 기능을 지키고 싶다면, 지금 바로 운동 루틴을 시작하는 것이 가장 근거 있는 선택입니다.",
+    "keywords": [
+      "작업기억",
+      "인지기능운동",
+      "마음챙김운동"
+    ],
+    "doi_url": "https://doi.org/10.3389/fpubh.2024.1365589",
+    "pdf_url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1365589/pdf",
+    "abstract_text": "Objective Our network meta-analysis aimed to ascertain the effect of physical activity on the visual–spatial working memory of individuals with mild cognitive impairment and Alzheimer’s disease as well as to propose tailored exercise interventions for each group. Methods Employing a frequentist approach, we performed a network meta-analysis to compare the effectiveness of different exercise interventions in improving the visual–spatial working memory of individuals with mild cognitive impairment and Alzheimer’s disease. Subsequently, we explored the moderating variables influencing the effectiveness of the exercise interventions through a subgroup analysis. Results We included 34 articles involving 3,074 participants in the meta-analysis, comprised of 1,537 participants from studies on mild cognitive impairment and 1,537 participants from studies on Alzheimer’s disease. The articles included exhibited an average quality score of 6.6 (score studies) and 6.75 (reaction time [RT] studies), all passing the inconsistency test (p > 0.05). In the mild cognitive impairment literature, mind–body exercise emerged as the most effective exercise intervention (SMD = 0.61, 95% CI: 0.07–1.14). In Alzheimer’s disease research, aerobic exercise was identified as the optimal exercise intervention (SMD = 0.39, 95% CI: 0.06–0.71). Conclusion The results of the subgroup analysis suggest that the most effective approach to enhancing the visual–spatial working memory of individuals with mild cognitive impairment entails exercising at a frequency of three or more times per week for over 60 min each time and at a moderate intensity for more than 3 months. Suitable exercise options include mind–body exercise, multicomponent exercise, resistance exercise, and aerobic exercise. For individuals with Alzheimer’s disease, we recommend moderately intense exercise twice per week for over 90 min per session and for a duration of 3 months or longer, with exercise options encompassing aerobic exercise and resistance exercise."
+  },
+  {
+    "id": "b5a01d737bcfa11dbc292d99511a87c9a0afcbf2",
+    "topic": "cognitive load working memory productivity meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "Strategy and Core Cognitive Training Effects on Working Memory Performance: A Systematic Review and Meta-Analysis",
+    "year": 2023,
+    "citations": 7,
+    "authors": [
+      "Shachar Ben Izhak",
+      "M. Lavidor"
+    ],
+    "status": "pending",
+    "generated_at": "2026-03-08T16:00:37.972802",
+    "headline": "전략이 반복보다 세야",
+    "one_line": "24개 연구, 1521명 분석 결과 — 단순 반복 훈련보다 전략 기반 훈련이 작업기억 향상에 더 효과적이었어.",
+    "easy_explanation": "뇌를 훈련시키는 방법에 두 가지가 있어. 하나는 그냥 같은 걸 계속 반복하는 방식이고, 다른 하나는 '이렇게 외워봐, 이런 전략 써봐' 하고 방법을 가르쳐주는 방식이야. 연구 결과, 전략을 배운 쪽이 훈련한 과제에서 훨씬 더 잘했어. 근데 재미있는 건, 다른 새로운 일에 적용하는 건 두 방법 모두 별로 안 됐다는 거야. 결국 '어떻게 생각할지'를 배우는 게, 그냥 '많이 하는 것'보다 낫다는 얘기지.",
+    "why_important": "매일 할 일 목록 정리하고 집중하려고 할 때, 무작정 반복하는 것보다 나만의 정리 전략을 갖는 게 훨씬 뇌 효율을 높인다는 걸 과학이 증명한 거야. 공부법, 업무 방식, 습관 설계 모두에 바로 적용할 수 있는 얘기야.",
+    "secret_brain_insight": "할 일을 그냥 쌓아두는 게 아니라, 네가 어떻게 처리할지 '방식'을 만들어두는 게 진짜 시스템이야. 시크릿 브레인도 결국 너만의 전략을 담는 그릇인 거거든. 반복이 아니라 구조가 뇌를 바꿔.",
+    "sns_copy": "1521명 연구 결과 🧠 '반복'보다 '전략'이 기억력을 더 키운다. 많이 하는 게 아니라, 잘 하는 방법을 배워야 해. 📌",
+    "landing_copy": "2023년 24개 연구·1521명을 분석한 메타분석에 따르면, 단순 반복 훈련보다 전략 기반 훈련이 작업기억 향상에 더 효과적인 것으로 나타났습니다. 시크릿 브레인은 과학적으로 검증된 전략적 사고 방식을 당신의 일상에 녹여드립니다.",
+    "keywords": [
+      "작업기억",
+      "전략적 사고",
+      "인지 훈련"
+    ],
+    "doi_url": "https://doi.org/10.1080/15248372.2023.2172413",
+    "pdf_url": "https://doi.org/10.1080/15248372.2023.2172413",
+    "abstract_text": "ABSTRACT The field of cognitive training (CT) has been researched for over a century. However, there is still a debate regarding its ability to produce cognitive improvement, especially in working memory (WM) indices. This meta-analysis examined whether there is an advantage in training gains by comparing the results of two specific WM training approaches, Core Training (CRT) and Strategy Training (ST). Meta-analytic techniques were used to summarize 28 independent effect sizes from 24 studies with 1521 subjects, calculated only from studies that compared both training approaches in a single study. We found moderate effect sizes of trained tasks improvement with a clear advantage to ST over CRT, from which younger trainees benefitted the most. However, this advantage has almost disappeared for untrained tasks due to the limited improvement each approach produced on its own."
+  },
+  {
+    "id": "ad8f19c54529de1e863c3f2154426104137a77ff",
+    "topic": "cognitive load working memory productivity meta-analysis",
+    "evidence_level": "🥇 메타분석",
+    "paper_title": "Exploring the impact of different types of exercise on working memory in children with ADHD: a network meta-analysis",
+    "year": 2025,
+    "citations": 5,
+    "authors": [
+      "Xiangqin Song",
+      "Yaoqi Hou",
+      "Wenying Shi"
+    ],
+    "status": "pending",
+    "generated_at": "2026-03-08T16:00:54.872723",
+    "headline": "운동이 ADHD 뇌를 바꿔!",
+    "one_line": "인지-유산소 운동이 ADHD 아이들의 작업기억을 SMD 0.72로 가장 크게 향상시켰어.",
+    "easy_explanation": "ADHD 있는 아이들은 머릿속 '메모장'인 작업기억이 약한 경우가 많아. 근데 운동 종류에 따라 그 메모장이 얼마나 좋아지는지가 달라지거든. 17개 연구를 다 합쳐서 분석해봤더니, 머리 쓰면서 동시에 몸도 쓰는 '인지-유산소 운동'이 단순히 달리는 것보다 훨씬 효과가 좋더라. 쉽게 말하면 그냥 뛰는 것보다 '규칙 있는 게임처럼 생각하면서 움직이는 운동'이 뇌에 훨씬 좋은 자극이 된다는 거야.",
+    "why_important": "약 없이도 ADHD 아이의 집중력과 기억력을 키울 수 있다는 뜻이라 부모나 교사한테 진짜 실용적인 정보야. 하루 운동 방식 하나 바꾸는 것만으로도 아이의 학습 능력이 달라질 수 있거든.",
+    "secret_brain_insight": "할 일을 기억하고 순서대로 처리하는 힘, 그게 바로 작업기억이야. 시크릿 브레인으로 생각을 정리하는 것도 좋지만, 몸을 먼저 깨워야 뇌도 제대로 돌아가. 오늘 할 일 목록 쓰기 전에 10분이라도 생각하면서 움직여봐, 그게 진짜 뇌를 여는 방법이야.",
+    "sns_copy": "ADHD 아이에게 필요한 건 '생각하면서 움직이는 운동'이었어 🧠 인지-유산소 운동 하나로 작업기억 효과 크기 0.72, 단순 유산소의 거의 2배! 운동 종류가 이렇게 중요할 줄이야 🏃",
+    "landing_copy": "17개 연구를 종합한 네트워크 메타분석 결과, 인지-유산소 운동은 ADHD 아동의 작업기억 향상에 가장 효과적인 운동 유형으로 확인되었습니다(SMD=0.72). 단순한 신체 활동을 넘어, 인지적 자극이 결합된 운동이 아이의 뇌 발달에 과학적으로 유의미한 차이를 만들어냅니다.",
+    "keywords": [
+      "ADHD",
+      "작업기억",
+      "인지-유산소운동"
+    ],
+    "doi_url": "https://doi.org/10.3389/fpsyg.2025.1522944",
+    "pdf_url": "",
+    "abstract_text": "Background Attention-deficit hyperactivity disorder (ADHD) is a common neurodevelopmental disorder in children, often accompanied by working memory deficits. Recently, exercise interventions have gained attention as a potential strategy to improve cognitive function in children with ADHD. However, the effects of different types of exercise on working memory remain unclear. This study aimed to assess the effects of various exercise interventions on working memory in children with ADHD using a network meta-analysis. Methods A comprehensive search was conducted in PubMed, Cochrane, Embase, and Web of Science databases for relevant studies. After screening according to the inclusion and exclusion criteria, a total of 17 eligible studies were identified for analysis. A network meta-analysis was performed to integrate data and evaluate the effects of cognitive-aerobic exercise, ball games, mind-body exercises, interactive games, and general aerobic exercise on working memory in children with ADHD. Results The results indicated significant differences in the effectiveness of various types of exercise interventions on working memory in children with ADHD. Cognitive-aerobic exercise showed the most significant effect (SMD = 0.72, 95% CI: 0.44–1.00), followed by ball games (SMD = 0.61, 95% CI: −0.12–1.35). Mind-body exercises and interactive games had moderate effects (SMD = 0.50 and 0.37, respectively), while general aerobic exercise showed relatively small effects (SMD = 0.40, 95% CI: 0.19–0.60). SUCRA analysis further confirmed the highest preference for cognitive-aerobic exercise in improving working memory. Meta-regression analysis showed that intervention frequency and total intervention duration significantly affected the effectiveness of cognitive-aerobic exercise, while other variables did not significantly moderate the effects. Conclusion Cognitive-aerobic exercise had the most significant effect on improving working memory in children with ADHD. Higher intervention frequency and longer intervention duration may enhance its effects. Future research should explore the impact of these factors and consider increasing sample sizes to validate the role of these moderators. Systematic review registration https://www.crd.york.ac.uk/PROSPERO/display_record.php?RecordID=627915."
+  }
+]

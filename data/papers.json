@@ -1,0 +1,955 @@
+[
+  {
+    "paperId": "5dcfe1bd7fde14465cd8d5d0b432e8f6ac4dc24a",
+    "externalIds": {
+      "DOI": "10.1016/j.ejogrb.2023.11.028",
+      "CorpusId": 265373439,
+      "PubMed": "38042118"
+    },
+    "title": "Impact of enhanced recovery after surgery (ERAS) guidelines implementation in cesarean delivery: A systematic review and meta-analysis.",
+    "year": 2023,
+    "citationCount": 20,
+    "openAccessPdf": {
+      "url": "http://www.ejog.org/article/S0301211523008369/pdf",
+      "status": "HYBRID",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.ejogrb.2023.11.028?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.ejogrb.2023.11.028, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Review",
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2267840225",
+        "name": "Beatriz B. Pinho"
+      },
+      {
+        "authorId": "144136839",
+        "name": "A. Costa"
+      }
+    ],
+    "abstract": "BACKGROUND\nCesarean delivery rate is increasing, with no prediction of this rate to drop. Implementation of Early Recovery After Surgery (ERAS) program adapted to this high prevalent obstetrical surgical procedure proposes better peri-operative care achievement with improved maternal medical care, namely reduced morbidity, faster return to normal daily activities and improved impact on quality of life. Our aim was to analyze the outcomes of ERAS guidelines implementation in cesarean sections (CS).\n\n\nMATERIAL AND METHODS\nA systematic review was performed across 3 databases (MEDLINE (Pubmed), Scopus and Web of Science), with no time or language filters, for articles comparing outcomes on pregnant women who delivered via CS with ERAS guidelines implementation versus the traditional approach without ERAS implementation. Outcomes established: primary - hospital length of stay; secondary - opioid consumption, readmission rates and maternal complications (overall, surgical site infection and emetic morbidity). Statistical analyses were conducted using Review Manager 5.4 and its results were expressed as mean difference, standardized mean difference and odds ratio, with 95% of confidence intervals. This systematic review was reported according to the PRISMA statement.\n\n\nRESULTS\nThis systematic review included 16 studies (3 randomized controlled trials (RCT), 4 prospective cohorts and 9 retrospective cohorts), with a pool analysis of 19,001 women (9752 with the traditional approach and 9249 following ERAS guidelines). Our results showed a significative decrease in length of hospital stay (MD: -13.78 h; CI 95 % -19.28 to -8.28; p < 0.00001) and opioid consumption (SMD: -0.91; CI 95 % -1.51 to -0.32; p = 0.003), with similar readmission rates (OR: 0.85; CI 95 % 0.50 to 1.44; p = 0.53) and maternal complications, namely: overall (OR: 0.87; CI 95 % 0.56 to 1.35; p = 0.53); surgical site infection (OR: 1.13; CI 95 % 0.72 to 1.77; p = 0.60) and emetic morbidity (OR: 0.78; CI 95 % 0.31 to 1.96; p = 0.60).\n\n\nCONCLUSIONS\nERAS guidelines applied at CS management are associated with decreased length of stay and opioid consumption, without negatively impact on readmission rates and overall maternal complications, including surgical site infection and emetic morbidity. The reduced number of RCT studies and the heterogeneity of the studies (heterogeneous inter-study protocols) constitutes the major limitation of the evidence found. Still, these findings may be a foremost help to confirm the beneficial impact of an ERAS approach during peri-cesarean management.",
+    "trust_score": 77,
+    "search_topic": "implementation intention goal achievement meta-analysis",
+    "collected_at": "2026-03-08T15:31:02.425903",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "75730e436c3e015d09952e38b3278876ee4f0d47",
+    "externalIds": {
+      "DOI": "10.1016/j.nepr.2025.104583",
+      "CorpusId": 282166144,
+      "PubMed": "41108860"
+    },
+    "title": "Effects of PAD class on Chinese nursing students' academic achievement and core ability: A systematic review and meta-analysis.",
+    "year": 2025,
+    "citationCount": 2,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.nepr.2025.104583?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.nepr.2025.104583, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Review",
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2266909153",
+        "name": "Xiaoyan Wang"
+      },
+      {
+        "authorId": "2267035940",
+        "name": "Yan Wang"
+      },
+      {
+        "authorId": "2353582161",
+        "name": "Mei Du"
+      },
+      {
+        "authorId": "2266881508",
+        "name": "Lifeng Yang"
+      },
+      {
+        "authorId": "2267034136",
+        "name": "Shasha Hu"
+      },
+      {
+        "authorId": "2156265177",
+        "name": "Zhaojun Li"
+      }
+    ],
+    "abstract": "PAD class has been used in nursing teaching for more than 10 years in China, but there is no evidence to show the effectiveness of PAD class in nursing students. Therefore, this study aims to conduct the first systematic review and meta-analysis of the learning effects of PAD class on nursing students. From the establishment of the database until August 2025, a systematic evaluation search was conducted on 9 databases. After careful screening process, 44 studies on PAD class education of nursing students in China were selected for meta-analysis. The results show that PAD class is significantly better than traditional teaching methods in improving final examination scores, practical skill, usual performance, self-directed learning ability, critical thinking ability, and self-efficacy of Chinese nursing students. Given the limited number and quality of included studies, these findings should be confirmed by further high-quality studies.\n\n\nAIM\nThis study aims to explore the effects of the Presentation-Assimilation-Discussion (PAD) class among nursing students in China.\n\n\nBACKGROUND\nThe PAD class has been implemented in China for over a decade. Although several studies have demonstrated its potential to improve both academic performance and core competencies of nursing students in China, there remains insufficient evidence to conclusively recommend its adoption as a teaching method.\n\n\nDESIGN\nThis is a systematic review and meta-analysis.\n\n\nMETHODS\nIn August 2025, a comprehensive search was performed across multiple databases, including PubMed, Embase, The Cochrane Library, Web of Science (WoS), OVID, Wanfang, VIP, CBM, and CNKI. Studies meeting the predefined inclusion and exclusion criteria were selected, and relevant data were extracted. The quality of the studies was assessed before conducting the meta-analysis. The evaluation protocol of this study has been prospectively registered in the International Prospective Register of Systematic Reviews(PROSPERO) (CRD420251020143).\n\n\nRESULTS\nFrom an initial pool of 2013 articles, 44 were selected for meta-analysis after a rigorous screening process. The results show that the PAD class approach can improve the final examination scores, practical skill, usual performance, self-directed learning ability, critical thinking ability, and self-efficacy of nursing students compared to traditional teaching methods. All these outcomes were significantly superior.\n\n\nCONCLUSION\nThe PAD class model can effectively enhance academic achievement and core ability of Chinese nursing students. However, considering the limited quantity and quality of the included studies, these conclusions require validation through further high-quality research.",
+    "trust_score": 75,
+    "search_topic": "implementation intention goal achievement meta-analysis",
+    "collected_at": "2026-03-08T15:31:02.425903",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "9680cd83359acb97166b1da4cc1456c0e846cc3e",
+    "externalIds": {
+      "PubMedCentral": "10094952",
+      "DOI": "10.1093/abm/kaac066",
+      "CorpusId": 253457096,
+      "PubMed": "36367428"
+    },
+    "title": "Evaluation of the Effectiveness of Behavioral Economic Incentive Programs for Goal Achievement on Healthy Diet, Weight Control and Physical Activity: A Systematic Review and Network Meta-analysis",
+    "year": 2022,
+    "citationCount": 27,
+    "openAccessPdf": {
+      "url": "https://academic.oup.com/abm/article-pdf/57/4/277/49868631/kaac066.pdf",
+      "status": "HYBRID",
+      "license": "CCBYNC",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10094952, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "115991892",
+        "name": "Suparee W. Boonmanunt"
+      },
+      {
+        "authorId": "4772699",
+        "name": "O. Pattanaprateep"
+      },
+      {
+        "authorId": "2097643",
+        "name": "B. Ongphiphadhanakul"
+      },
+      {
+        "authorId": "6898535",
+        "name": "G. Mckay"
+      },
+      {
+        "authorId": "145400367",
+        "name": "J. Attia"
+      },
+      {
+        "authorId": "2612995",
+        "name": "I. Vlaev"
+      },
+      {
+        "authorId": "5319457",
+        "name": "A. Thakkinstian"
+      }
+    ],
+    "abstract": "Abstract Background Healthy diet, weight control and physical activity to reduce obesity can be motivated by financial incentives (FI). Behavioral-economic approaches may improve the incentivization effectiveness. This study compares and ranks the effectiveness of standard and behavioral incentivization for healthy diet, weight control, and physical activity promotion. Purpose To investigate whether behavioral-economic insights improve incentivization effectiveness. Methods A systematic search of Medline and Scopus was performed from database inception to December 2020. Study characteristics, program designs, and risk ratio (RR) were extracted. A two-stage network meta-analysis pooled and ranked intervention effects. Results There were 35 eligible RCTs. For diet-weight control, standard FI, deposit contract (deposit), lottery-based incentive (lottery), and standard-FI + lottery increased goal achievement compared to no-FI but only deposit was statistically significant with pooled RRs and 95% confidence intervals (CI) of 1.21 (0.94, 1.56), 1.79 (1.04, 3.05), 1.45 (0.99, 2.13), and 1.73 (0.83, 3.63). For physical activity, standard-FI, deposit, and lottery significantly increased goal achievement compared to no-FI, with pooled RRs of 1.38 (1.13, 1.68), 1.63 (1.24, 2.14) and 1.43 (1.14, 1.80), respectively. In a follow-up period for physical activity, only deposit significantly increased goal achievement compared to no-FI, with pooled RRs of 1.39 (1.11, 1.73). Conclusion Deposit, followed by lottery, were best for motivating healthy diet, weight control and physical activity at program end. Post-intervention, deposit then standard-FI were best for motivating physical activity. Behavioral insights can improve incentivization effectiveness, although lottery-based approaches may offer only short-term benefit regarding physical activity. However, the imprecise intervention effects were major concerns.",
+    "trust_score": 72,
+    "search_topic": "implementation intention goal achievement meta-analysis",
+    "collected_at": "2026-03-08T15:31:02.425903",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "bf4486a1b593840518469b5d515bd6b5d621c02b",
+    "externalIds": {
+      "PubMedCentral": "10416154",
+      "DOI": "10.3390/ejihpe13070085",
+      "CorpusId": 259241891,
+      "PubMed": "37504476"
+    },
+    "title": "The 3 × 2 Achievement Goals in the Education, Sport, and Occupation Literatures: A Systematic Review with Meta-Analysis",
+    "year": 2023,
+    "citationCount": 11,
+    "openAccessPdf": {
+      "url": "https://www.mdpi.com/2254-9625/13/7/85/pdf?version=1687361713",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10416154, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Review",
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "6071926",
+        "name": "M. Lochbaum"
+      },
+      {
+        "authorId": "71357562",
+        "name": "Cassandra Sisneros"
+      },
+      {
+        "authorId": "52205718",
+        "name": "Zişan Kazak"
+      }
+    ],
+    "abstract": "Achievement goal theory has been a dominant motivation framework since the 1980s. The 3 × 2 achievement goal framework emerged in the literature in 2011. We aimed to conduct a systematic review with meta-analysis following the PRISMA guidelines of the 3 × 2 achievement goal research in education, sport, and occupation settings. We retrieved articles from searching EBSCOhost and Google Scholar platforms. Eligible articles contained the 3 × 2 achievement goal in education, sport, or occupation, were published in a peer-reviewed journal, and provided mean data or correlate data. We tested hypotheses concerned with (1) the overall pattern of achievement goal endorsement, (2) achievement goal differences by domain (education, sport) and compulsory nature of the domains or sub-domains, and (3) achievement goal relationships with correlates (e.g., learning strategies, motivations, performance). After screening, 56 articles met all inclusion criteria, providing 58 samples across education (n = 44), sport (n = 10), and occupation (n = 4) settings with 35,031 unique participants from 15 countries. Participants endorsed the task- and self-approach goals more than the counterpart avoidance goals, other-avoidance goals more than other-approach goals, and the intercorrelations and reliability coefficients were acceptable. Minimal impact results from examining within and across study bias statistics. Of importance, the domain (i.e., education, sport) and the compulsory nature of the domain or sub-domains (i.e., primary-secondary education, sport) moderated goal endorsement (group mixed-effects p < 0.05, g values medium to very large). These groupings also moderated the other goal differences. Concerning our correlates analyses, most meta-analyzed correlations among the achievement goals and correlates were small in meaningfulness with the largest correlations (0.30–0.42) between the approach goals merged and the task- and self-approach goals and facilitative learning strategies and desired motivations. In conclusion, the 3 × 2 achievement goals literature is diverse. Furthering the study and application of this model requires overcoming inherent limitations (i.e., consistent response scale sets), teasing out differences between the task- and self-goals, measuring performance outcomes, and cross-cultural collaborations.",
+    "trust_score": 71,
+    "search_topic": "implementation intention goal achievement meta-analysis",
+    "collected_at": "2026-03-08T15:31:02.425903",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "00c5a7fca4ad2792a2d28de20847875f915a0b92",
+    "externalIds": {
+      "DOI": "10.3390/su142215019",
+      "CorpusId": 253545877
+    },
+    "title": "Effects of Interventions Based on Achievement Goals and Self-Determination Theories on the Intention to Be Physically Active of Physical Education Students: A Systematic Review and Meta-Analysis",
+    "year": 2022,
+    "citationCount": 9,
+    "openAccessPdf": {
+      "url": "https://www.mdpi.com/2071-1050/14/22/15019/pdf?version=1668405001",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/su142215019?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/su142215019, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "1414214852",
+        "name": "Carlos Fernández-Espínola"
+      },
+      {
+        "authorId": "13453943",
+        "name": "B. J. Almagro"
+      },
+      {
+        "authorId": "1432784694",
+        "name": "Javier A. Tamayo-Fajardo"
+      },
+      {
+        "authorId": "1405039547",
+        "name": "Gema Paramio-Pérez"
+      },
+      {
+        "authorId": "1401677851",
+        "name": "P. Sáenz-López"
+      }
+    ],
+    "abstract": "The aim was to review the effects of interventions based on self-determination theory and achievement goals theory on intention to be physically active in the future in physical education students, as well as to conduct a meta-analysis to determine the overall effect size of these interventions. PRISMA guidelines were followed to conduct this systematic review and meta-analysis. Three scientific electronic databases were used: Web of Science (WOS), Scopus, and SportDiscus. A total of eleven studies fulfilled the inclusion criteria and were included in the meta-analysis. Effect size for intention to be physically active of each study was calculated using the means and standard deviations before and after the intervention. The overall effect size for intention was moderate (standardized mean difference = 0.47 with 95% CI from 0.28 to 0.67), while the heterogeneity was large. Seven of the eleven studies reported significant within-group improvements in intention after the intervention. Eight studies showed significant between-group differences in favor of the experimental group. The findings showed that teaching strategies, family involvement, and the use of videos related to physical activity participation may be relevant factors that must be considered by educators and researchers to conduct future effective interventions. Interventions based on self-determination theory and achievement goals theory could be useful in the process of the promotion of physical activity. However, given the large heterogeneity, these findings must be taken with caution.",
+    "trust_score": 70,
+    "search_topic": "implementation intention goal achievement meta-analysis",
+    "collected_at": "2026-03-08T15:31:02.425903",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "1b6c9d0f2725a3bb68631228b726a1a6679cf742",
+    "externalIds": {
+      "DOI": "10.3390/ejihpe16020018",
+      "CorpusId": 285186054,
+      "PubMed": "41745061"
+    },
+    "title": "Situational and Dispositional Achievement Goals' Relationships with Measures of State and Trait Sport Confidence: A Systematic Review and Meta-Analysis.",
+    "year": 2026,
+    "citationCount": 0,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/ejihpe16020018?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/ejihpe16020018, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Review",
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2407847509",
+        "name": "Hannah Quick"
+      },
+      {
+        "authorId": "6071926",
+        "name": "M. Lochbaum"
+      }
+    ],
+    "abstract": "The purpose of this systematic review and meta-analysis (PROSPERO ID: CRD42024575181) was to quantify the relationships between dispositional and situational achievement goal involvement and sport confidence. A secondary purpose was to examine potential moderators of these relationships. Published studies reporting sufficient data, including one achievement goal measure from the dichotomous framework and one measure of sport confidence in an athlete sample, were included. Information sources included EBSCOhost databases, Web of Science databases, and relevant meta-analyses. The random-effects correlational coefficient (r) served as the summary statistic. Thirty-six studies yielding 37 independent samples, published between 1988 and 2026, which met all inclusion criteria, representing a total of 10,461 participants from youth to elite sports across four continents. Meta-analyzed random-effects correlations between task climate (k = 15, r = 0.33 [95% CI 0.23, 0.43]), ego climate (k = 13, r = -0.08 [95% CI -0.16, -0.00]), task orientation (k = 26, r = 0.27 [95% CI 0.21, 0.32]), ego orientation (k = 26, r = 0.11 [95% CI 0.06, 0.17]), and sport confidence ranged from small and negative to medium and positive in magnitude. Mixed-effects moderator analyses revealed significant differences (p < 0.05) for task climate when comparing state (r = 0.24) versus trait (r = 0.41) sport confidence measures, for task orientation scale (TEOSQ r = 0.31 vs. POSQ r = 0.18) in relation to sport confidence, and for study quality (lowest r = 0.35, medium r = 0.18, highest r = 0.24) in the task orientation-sport confidence relationship. However, nearly all prediction intervals for the examined relationships crossed zero, with the exception of a few TEOSQ- and POSQ-based moderator analyses. Thus, researchers and practitioners are cautioned that relationships between dispositional achievement goals, motivational climate perceptions, and sport confidence might be minimal or vary based on the dispositional achievement goal measure.",
+    "trust_score": 70,
+    "search_topic": "implementation intention goal achievement meta-analysis",
+    "collected_at": "2026-03-08T15:31:02.425903",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "3d3586aad3686db0bf9ea597772b8bad0241acef",
+    "externalIds": {
+      "PubMedCentral": "11827215",
+      "DOI": "10.1186/s12912-025-02801-x",
+      "CorpusId": 276343571,
+      "PubMed": "39948560"
+    },
+    "title": "Turnover intention among nurses in Iranian hospitals: a systematic review and meta-analysis",
+    "year": 2025,
+    "citationCount": 3,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.1186/s12912-025-02801-x",
+      "status": "GOLD",
+      "license": "CCBYNCND",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11827215, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "2342203029",
+        "name": "Alireza Hajizadeh"
+      },
+      {
+        "authorId": "3927624",
+        "name": "E. Kakemam"
+      },
+      {
+        "authorId": "1403657977",
+        "name": "M. Arab-Zozani"
+      },
+      {
+        "authorId": "2345361097",
+        "name": "Zahra Najafpoor"
+      },
+      {
+        "authorId": "2261212633",
+        "name": "Hossein Dargahi"
+      },
+      {
+        "authorId": "2316963284",
+        "name": "Jalal Saeidpour"
+      }
+    ],
+    "abstract": "The turnover intention of nurses from their current positions have become a critical global public health challenge. In Iran, as a country facing with several of healthcare challenges, understanding the rate of nurses’ turnover intention is of paramount importance. This study aimed to determine the pooled proportion of turnover intention among Iranian hospital nurses through systematic review and meta-analysis. This systematic review and meta-analysis adhered to PRISMA guidelines. Relevant studies were identified through a comprehensive search of English and Persian databases, including Web of Science, PubMed, Scopus, Science Information Database, IranMedex, and Magiran from January 2000 to November 2024. The Joanna Briggs Institute checklist was employed to assess the methodological quality of included studies. Pooled mean and standard error with 95% CI were calculated using a random effect model. Data analysis was performed using Comprehensive Meta-Analysis software, with the I² statistic used to evaluate heterogeneity among studies and Egger’s test and visual inspection of funnel plots used to investigate the publication bias. Overall, 42 studies were included in this systematic review and meta-analysis. In total, 12,898 nurses participated in the 42 included studies. The overall turnover intention was 2.96 ± 0.056 (95% CI: 2.85–3.07, P = 0.001). Based on subgroup analysis, the turnover intention was 2.95 ± 0.123 and 2.96 ± 0.064 before and after the implementing of health transformation plan (HTP). Also, subgroup analysis by COVID-19 pandemic showed that the turnover intention was 2.97 ± 0.072 and 2.94 ± 0.095 after and before COVID-19 pandemic, respectively. Based on visual inspection of the funnel plot, and egger’s test (2.04 ± 2.96, p = 0.45), no evidence of publication bias was observed. Nurses turnover intention in Iran are at a moderate level, in general and, before and after the implementation of the HTP and the COVID-19 pandemic. These results support the need to formulate evidence-based policies and plans to enhance nurse retention, contributing to the overall stability of the Iranian health system.",
+    "trust_score": 70,
+    "search_topic": "implementation intention goal achievement meta-analysis",
+    "collected_at": "2026-03-08T15:31:02.425903",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "878ee90950a2386431748eee683ec80a2c033764",
+    "externalIds": {
+      "DOI": "10.1016/j.mhpa.2025.100685",
+      "CorpusId": 278186826
+    },
+    "title": "The Impact of an Acute Bout of Physical Activity on Executive Function and Academic Achievement in Preadolescent Children: A Systematic Review and Meta-Analysis.",
+    "year": 2025,
+    "citationCount": 3,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.mhpa.2025.100685?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.mhpa.2025.100685, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "2358140490",
+        "name": "Sam Dixon"
+      },
+      {
+        "authorId": "2278211004",
+        "name": "G. Tempest"
+      },
+      {
+        "authorId": "6996199",
+        "name": "F. Hettinga"
+      },
+      {
+        "authorId": "147506755",
+        "name": "M. Khudair"
+      },
+      {
+        "authorId": "150247354",
+        "name": "N. McCullogh"
+      }
+    ],
+    "abstract": "Long-term physical activity (PA) offers well-established benefits for children, but the impact of an acute bout of PA on executive function (EF) and academic achievement (AA) is not fully understood. Integrating findings in this area can inform key stakeholders on embedding PA in educational settings. This systematic review and meta-analysis examined the impact of acute PA bouts on preadolescent children ’ s EF and AA. Following PRISMA guidelines, 15 studies were included, varying in PA type, duration, intensity, outcome measures, and often assessing multiple EF domains: inhibition (n = 13), working memory (n = 9), and cognitive flexibility (n = 7). Meta-analyses indicated no statistically significant impact of acute bouts of PA on children ’ s EF (accuracy: Cohen ’ s d = 0.02; CI = (cid:0) 0.04 to 0.07; response time: Cohen ’ s d = (cid:0) 0.02; CI = (cid:0) 0.40 to 0.36). Only two studies included measures of AA, precluding a meta-analysis for this outcome. High heterogeneity between included studies, moderate risk of bias, and the detection of publication bias was shown. Future research should continue to investigate dose-response relationships in this area, clearly defining the type, intensity and duration of PA performed, while also considering contextual factors that may influence its effectiveness, such as the setting within which it is designed to be implemented. Additionally, more high-quality research is needed, with careful attention to methodological decisions such as EF measurement tools and assessment timepoints. Greater methodological consistency across studies will enhance the applicability of findings and aid future attempts to syn-thesise the literature in this field.",
+    "trust_score": 70,
+    "search_topic": "implementation intention goal achievement meta-analysis",
+    "collected_at": "2026-03-08T15:31:02.425903",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "7a675e7ed94e6ae018713a6e33080933aeca3a08",
+    "externalIds": {
+      "PubMedCentral": "11657275",
+      "DOI": "10.1186/s12889-024-20956-1",
+      "CorpusId": 274855820,
+      "PubMed": "39695553"
+    },
+    "title": "Fertility intention of young people of childbearing age in China after the implementation of the two-child policy—A systematic review and meta-analysis",
+    "year": 2024,
+    "citationCount": 15,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.1186/s12889-024-20956-1",
+      "status": "GOLD",
+      "license": "CCBYNCND",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11657275, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "MetaAnalysis",
+      "JournalArticle",
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "2159546783",
+        "name": "Yuanyi Ren"
+      },
+      {
+        "authorId": "2328797721",
+        "name": "Xu Cheng"
+      },
+      {
+        "authorId": "2270026719",
+        "name": "Changmin Niu"
+      },
+      {
+        "authorId": "2243448686",
+        "name": "Fan Yang"
+      },
+      {
+        "authorId": "2158586652",
+        "name": "Ying Zheng"
+      }
+    ],
+    "abstract": "In recent years, due to the continuous increase of China’s aging population and the decline of birth rate, China ‘s population base has declined sharply, and the fertility problem of young people has attracted much attention from scholars. Therefore, this study aims to comprehensively analyze the fertility intentions of young people of childbearing age and their influencing factors, explore the reasons for China’s low fertility rate, and provide a reasonable theoretical basis for the formulation of subsequent fertility-related policies. A systematic literature search was conducted from January 2012 to September 2023 through the databases PubMed, Web of Science, Embase, CNKI, Wanfang, and VIP using keywords including fertility desire, fertility intention, fertility plan, fertility purpose, fertility motivation, youth, urban youth, school-age youth, childbearing age youth in Chinese; and fertility desire, fertility intention, fertility plan, fertility willingness, youth, young people, child-bearing youth, and school-age youth in English. Two reviewers independently screened studies, extracted data, and appraised the risk of bias. RevMan 5.2 was used for the Meta-analysis of all outcomes. This study systematically evaluated 18 cross-sectional surveys, which included a total of 43,427 participants, with a combined fertility intention of 11.85%. Subgroup analyses revealed that gender, age, education level, economic level, nature of the household, number of existing children, and gender of the first child were related to fertility intentions of young people of childbearing age. In terms of fertility attitudes, the expectations of contemporary young people of childbearing age have shifted from the traditional attitude of “emphasizing sons over daughters” to the attitude of \" gender equality “. The low fertility intentions of young people of childbearing age in China are constrained by a combination of economic, age, and level of education. The government may increase the fertility intention of young people by increasing the economic support for fertility, implementing the local education promotion related to “parenting”, and actively implementing the early and active fertility of young people of childbearing age.",
+    "trust_score": 66,
+    "search_topic": "implementation intention goal achievement meta-analysis",
+    "collected_at": "2026-03-08T15:31:02.425903",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "a953583e05a9aba3fa11f9850e8ccc58e65aa4e3",
+    "externalIds": {
+      "PubMedCentral": "11598045",
+      "DOI": "10.3390/sports12110299",
+      "CorpusId": 273831730,
+      "PubMed": "39590901"
+    },
+    "title": "Situational and Dispositional Achievement Goals and Measures of Sport Performance: A Systematic Review with a Meta-Analysis",
+    "year": 2024,
+    "citationCount": 4,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.3390/sports12110299",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11598045, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Review",
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "6071926",
+        "name": "M. Lochbaum"
+      },
+      {
+        "authorId": "71357562",
+        "name": "Cassandra Sisneros"
+      }
+    ],
+    "abstract": "The purposes of this systematic review (PROSPERO ID: CRD42024510614, no funding source) were to quantify relationships between situational and dispositional dichotomous achievement goals and sport performance and explore potential relationship moderators. Published studies that reported at least one situational or dispositional achievement goal and a performance score were included. Studies without performance scores or based in a non-sport context were excluded. Information sources consisted of studies found in relevant published meta-analyses and EBSCOhost databases (finalized September 2024). The following statistics were conducted to assess the risk of bias: class-fail-safe n, Orwin’s fail-safe n, and funnel plots with trim and fill estimates. The summary statistics were r and d. Thirty studies from 1994 to 2024 met all inclusion criteria with 8708 participants from Europe, Asia, North America, and Oceania. The majority of samples were non-elite male youths and adolescents. The random-effects relationships (r) between task climate, 0.20 [0.14, 0.25], task orientation, 0.17 [0.12, 0.23], ego orientation, 0.09 [0.03, 0.16], and sport performance were small and significantly different (p < 0.05) from zero, while the ego motivational climate relationship was not, −0.00 [−0.48, 0.05]. The random-effects standard differences in means (d) for both the task orientation, 0.08 [0.02, 0.14], and ego orientation, 0.11 [−0.05, 0.26] were minimal in meaningfulness. Mixed-effects moderator analyses resulted in the following significant (p < 0.05) sub-group differences: subjective compared to objective performance measures (task orientation), elite compared to non-elite samples (task climate), and athlete-completed compared to coach-completed performance measures and performance records (task orientation). Finding only 30 studies meeting the inclusion criteria, which limited sub-group samples for moderation analyses, was the main limitation. Despite this limitation, AGT provides athletes and practitioners performance enhancement strategies. However, caution is warranted regarding relationship expectations given the small mean effect size values and the true prediction interval ranging from negative to positive, perhaps as a result of the heterogeneous samples and performance measures. A clear line of future research, considering the reviewed studies, with elite athletes is needed to verify the performance benefits of the task climate and ego orientation as well as the use of the ego goal orientation in selection decisions.",
+    "trust_score": 65,
+    "search_topic": "implementation intention goal achievement meta-analysis",
+    "collected_at": "2026-03-08T15:31:02.425903",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "aac90d0103fb8869afb66ca39cd9d3498948a027",
+    "externalIds": {
+      "DOI": "10.1016/j.jad.2021.01.084",
+      "CorpusId": 231919024,
+      "PubMed": "33581489"
+    },
+    "title": "An investigation of working memory deficits in depression using the n-back task: A systematic review and meta-analysis.",
+    "year": 2021,
+    "citationCount": 166,
+    "openAccessPdf": {
+      "url": "https://unsworks.unsw.edu.au/bitstreams/f2c651aa-a494-4c01-8e9d-8f016d8a9fbe/download",
+      "status": "GREEN",
+      "license": "CCBYNCND",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.jad.2021.01.084?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.jad.2021.01.084, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Review",
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2216247",
+        "name": "S. Nikolin"
+      },
+      {
+        "authorId": "2049453912",
+        "name": "Yi Yin Tan"
+      },
+      {
+        "authorId": "2049485361",
+        "name": "Andreas Schwaab"
+      },
+      {
+        "authorId": "40626776",
+        "name": "A. Moffa"
+      },
+      {
+        "authorId": "144119296",
+        "name": "C. Loo"
+      },
+      {
+        "authorId": "2192984",
+        "name": "D. Martin"
+      }
+    ],
+    "abstract": "BACKGROUND\nDepression is associated with cognitive deficits across multiple domains, including working memory. The n-back task, a convenient psychometric tool capable of computerised delivery and concurrent use with neuroimaging, can provide enhanced insight into working memory dysfunction in depression. This meta-analysis sought to investigate the n-back task under varying cognitive load conditions (i.e. different levels of 'n') to clarify the pattern of working memory deficits in depression.\n\n\nMETHODS\nWe conducted a systematic review and meta-analysis of studies involving unipolar depressed participants and matched controls utilising the n-back task. Meta-analyses were performed for accuracy and response times at four levels of cognitive load (0-, 1-, 2-, and 3-back).\n\n\nRESULTS\n31 studies (total 1,666 participants) met inclusion criteria and were included for quantitative analyses. Depressed individuals had significantly reduced accuracy compared to controls for 1-, 2-, and 3-back tasks, but not the attentional 0-back task. Likewise, response latencies were prolonged for all task levels (0-, 1-, 2-, and 3-back). Additional meta-regression analyses indicated that participant age and clinical status (i.e. inpatient/outpatient) may exacerbate working memory deficits associated with depression.\n\n\nLIMITATIONS\nOur results indicate high levels of heterogeneity between studies, particularly for response times.\n\n\nCONCLUSIONS\nAccuracy impairments were worse at higher levels of n, with the largest effect size obtained on the 2-back task, suggesting deficits to higher executive functions. Response times were consistently prolonged at all cognitive loads in agreement with a pattern of generalised psychomotor retardation.",
+    "trust_score": 86,
+    "search_topic": "cognitive load working memory productivity meta-analysis",
+    "collected_at": "2026-03-08T15:31:57.490071",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "c98b84c3bc8b66f81fd6addf3969708a94125b87",
+    "externalIds": {
+      "PubMedCentral": "12337486",
+      "DOI": "10.3389/fpsyg.2025.1556721",
+      "CorpusId": 280372198,
+      "PubMed": "40792082"
+    },
+    "title": "The effects of physical exercise on cognitive function in adolescents: a systematic review and meta-analysis",
+    "year": 2025,
+    "citationCount": 13,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12337486, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "2373914092",
+        "name": "Longyan Liu"
+      },
+      {
+        "authorId": "2306195750",
+        "name": "Xianyang Xin"
+      },
+      {
+        "authorId": "2373988443",
+        "name": "Ying Zhang"
+      }
+    ],
+    "abstract": "Objective Physical exercise holds promise for improving cognitive function development in adolescents. However, current research evidence remains inconsistent. This systematic review and meta-analysis primarily aimed to determine the overall impact of physical exercise interventions on adolescent cognitive function. It also extended to explore effects on specific cognitive domains (such as executive function, attention, working memory, cognitive flexibility, and inhibitory control) and to examine potential differences across various exercise types. Method A comprehensive search was conducted across multiple databases, including Web of Science, Embase, PubMed, the Cochrane Central Register of Controlled Trials, and CBM, to identify randomized controlled trials (RCTs) investigating the effects of physical exercise on cognitive function in adolescents. The search covered studies published from the inception of these databases through November 30, 2024. This protocol is registered with PROSPERO (CRD42024605962). A preliminary search of the databases and referenced citations identified 2,910 records. Standardized mean differences (SMD) and 90% confidence intervals (CI) were employed to calculate and aggregate the effect sizes for outcome measurement. Results A total of 21 studies were included in this meta-analysis. Considering that cognitive function comprises multiple domains and that different studies use diverse outcome measures to evaluate adolescent cognitive function, a subgroup analysis was conducted. The studies were grouped into categories such as executive function, attention, working memory, cognitive flexibility, and inhibitory control to better capture changes in adolescent cognitive abilities. The findings demonstrate that physical exercise interventions lead to significant improvements in cognitive function among adolescents when compared to the control group. Notably, enhancements were observed in executive function (SMD = 0.21, 95% CI: 0.06 to 0.37), attention (SMD = 0.56, 95% CI: 0.34 to 0.78), cognitive flexibility (SMD = 0.42, 95% CI: 0.26 to 0.58), inhibitory control (SMD = 0.58, 95% CI: 0.22 to 0.94), and working memory (SMD = 0.54, 95% CI: 0.16 to 0.91). The subgroup analysis revealed that aerobic exercise had the greatest impact on cognitive function (SMD = 0.53, 95% CI: 0.32 to 0.73), particularly in areas such as executive function and attention, compared to other exercise modalities. This suggests that aerobic exercise may be particularly effective in enhancing adolescent cognitive abilities. Conclusion Physical exercise has been shown to enhance cognitive function in adolescents. Based on the findings of this Meta-analysis, it is recommended that adolescents participate in at least moderate-intensity physical activities, such as aerobic exercise or resistance training, to promote cognitive development. Systematic review registration https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42024605962; Identifier: CRD42024605962.",
+    "trust_score": 86,
+    "search_topic": "cognitive load working memory productivity meta-analysis",
+    "collected_at": "2026-03-08T15:31:57.490071",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "835f68c1f72222c3a4ad06d6e68906a39a4c6187",
+    "externalIds": {
+      "PubMedCentral": "10100799",
+      "DOI": "10.7717/peerj.15108",
+      "CorpusId": 258078125,
+      "PubMed": "37065695"
+    },
+    "title": "Does the combination of exercise and cognitive training improve working memory in older adults? A systematic review and meta-analysis",
+    "year": 2023,
+    "citationCount": 14,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.7717/peerj.15108",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10100799, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "2115290082",
+        "name": "Yiqing Wu"
+      },
+      {
+        "authorId": "2076932798",
+        "name": "Ming Zang"
+      },
+      {
+        "authorId": "7425803",
+        "name": "Biye Wang"
+      },
+      {
+        "authorId": "2109155802",
+        "name": "Wei Guo"
+      }
+    ],
+    "abstract": "Background Cognitive functioning is dependent on working memory and a decline in working memory is the main cause of cognitive aging. Many studies have suggested that physical exercise or cognitive intervention can effectively improve working memory in the elderly. However, it is still unknown whether a combination of exercise and cognitive training (CECT) is more effective than either intervention alone. The present systematic review and meta-analysis were undertaken to evaluate the effect of CECT on working memory in the elderly. Methods The review was registered in the International Prospective Systematic Review (PROSPERO, CRD42021290138). Systematic searches were conducted on Web of Science, Elsevier Science, PubMed and Google Scholar. The data were extracted according to the PICOS framework. Comprehensive meta-analysis (CMA) software was used to perform the meta-analysis, moderator analysis and publication bias testing. Results The current meta-analysis included 21 randomized controlled trials (RCT). Results showed that CECT had a significantly greater impact on working memory in older adults compared to no intervention groups (SMD = 0.29, 95% CI [0.14–0.44], p < 0.01), with no significant difference between CECT and exercise (SMD = 0.16, 95% CI [−0.04–0.35], p = 0.12) or cognitive intervention alone (SMD = 0.08, 95% CI [−0.13–0.30], p = 0.44). Furthermore, the positive effect of CECT was moderated by intervention frequency and cognitive state. Conclusions The CECT can effectively improve working memory of older adults, but the effect of CECT compared to single intervention needs to be further explored.",
+    "trust_score": 81,
+    "search_topic": "cognitive load working memory productivity meta-analysis",
+    "collected_at": "2026-03-08T15:31:57.490071",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "f20de8b5f67bd94d160a4f8422bc1a59980bfc7f",
+    "externalIds": {
+      "DBLP": "journals/npjdm/ChanITCT24",
+      "PubMedCentral": "10764827",
+      "DOI": "10.1038/s41746-023-00987-5",
+      "CorpusId": 266755059,
+      "PubMed": "38172429"
+    },
+    "title": "Computerized cognitive training for memory functions in mild cognitive impairment or dementia: a systematic review and meta-analysis",
+    "year": 2024,
+    "citationCount": 85,
+    "openAccessPdf": {
+      "url": "https://www.nature.com/articles/s41746-023-00987-5.pdf",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10764827, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Review",
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2276431790",
+        "name": "Aaron TC Chan"
+      },
+      {
+        "authorId": "2219630318",
+        "name": "Roy T F Ip"
+      },
+      {
+        "authorId": "2276350903",
+        "name": "Joshua YS Tran"
+      },
+      {
+        "authorId": "2276411967",
+        "name": "Joyce Y.C. Chan"
+      },
+      {
+        "authorId": "2136024003",
+        "name": "K. Tsoi"
+      }
+    ],
+    "abstract": "Dementia is a common medical condition in the ageing population, and cognitive intervention is a non-pharmacologic strategy to improve cognitive functions. This meta-analysis evaluated the benefits of computerized cognitive training (CCT) on memory functions in individuals with MCI or dementia. The study was registered prospectively with PROSPERO under CRD42022363715 and received no funding. The search was conducted on MEDLINE, Embase, and PsycINFO on Sept 19, 2022, and Google Scholar on May 9, 2023, to identify randomized controlled trials that examined the effects of CCT on memory outcomes in individuals with MCI or dementia. Mean differences and standard deviations of neuropsychological assessment scores were extracted to derive standardized mean differences. Our search identified 10,678 studies, of which 35 studies were included. Among 1489 participants with MCI, CCT showed improvements in verbal memory (SMD (95%CI) = 0.55 (0.35–0.74)), visual memory (0.36 (0.12–0.60)), and working memory (0.37 (0.10–0.64)). Supervised CCT showed improvements in verbal memory (0.72 (0.45–0.98)), visual memory (0.51 (0.22–0.79)), and working memory (0.33 (0.01–0.66)). Unsupervised CCT showed improvement in verbal memory (0.21 (0.04–0.38)) only. Among 371 participants with dementia, CCT showed improvement in verbal memory (0.64 (0.02–1.27)) only. Inconsistency due to heterogeneity (as indicated by I^2 values) is observed, which reduces our confidence in MCI outcomes to a moderate level and dementia outcomes to a low level. The results suggest that CCT is efficacious on various memory domains in individuals with MCI. Although the supervised approach showed greater effects, the unsupervised approach can improve verbal memory while allowing users to receive CCT at home without engaging as many healthcare resources.",
+    "trust_score": 78,
+    "search_topic": "cognitive load working memory productivity meta-analysis",
+    "collected_at": "2026-03-08T15:31:57.490071",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "3ea7ff48bb7590aa638739778b88a3a874afe968",
+    "externalIds": {
+      "PubMedCentral": "10213742",
+      "DOI": "10.3389/fnut.2023.1067626",
+      "CorpusId": 258619922,
+      "PubMed": "37252247"
+    },
+    "title": "Association between poverty and children's working memory abilities in developing countries: a systematic review and meta-analysis",
+    "year": 2023,
+    "citationCount": 5,
+    "openAccessPdf": {
+      "url": "https://www.frontiersin.org/articles/10.3389/fnut.2023.1067626/pdf",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10213742, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "121072132",
+        "name": "H. Nugroho"
+      },
+      {
+        "authorId": "152159485",
+        "name": "H. Salimo"
+      },
+      {
+        "authorId": "2004648797",
+        "name": "H. Hartono"
+      },
+      {
+        "authorId": "113162938",
+        "name": "M. Hakim"
+      },
+      {
+        "authorId": "5041614",
+        "name": "A. Probandari"
+      }
+    ],
+    "abstract": "Introduction Working memory is critical in cognitive skills, especially among children. Children's ability to count and complete cognitive tasks are strongly associated with working memory abilities. Recent studies indicated that in addition to health factors, socioeconomic status also has a significant impact on children's working memory capacity. Despite these, evidence on the effects of socioeconomic status on working memory from developing countries yielded a somewhat puzzling picture. Methods This systematic review and meta-analysis provide a comprehensive summary of the recent evidence concerning the socioeconomic status determinants of children's working memory in developing countries. We searched via Cochrane library, ScienceDirect, Scopus, PubMed, and ProQuest. The initial search terms were [“socioeconomic”, “socio-economic”, “socioeconomic status”, “socio-economic status”, “income”, “poverty”, “disadvantaged”, “disparity”] AND [“working memory”, “short term memory”, “short-term memory”, “cognitive”, “achievement”, “performance”] AND [“child*”, “school child*”]. Odds ratio (for categorical outcome data) or standardized mean differences (for continuous data) and their 95% confidence intervals were calculated from the data generated. Results This meta-analysis included five studies from 4 developing countries with a total of 4,551 subjects. Poverty was associated with a lower working memory score (OR: 3.12; 95% CI: 2.66, 3.65; p < 0.001). Another finding from 2 studies in this meta-analysis was that low mother education was associated with a lower score of working memory (OR: 3.26, 95% CI: 2.86, 3.71; p < 0.001). Discussion Poverty and low level of mothers' education were significant risk factors for lowering working memory among children in developing countries. Systematic review registration https://www.crd.york.ac.uk/prospero/, identifier: CRD42021270683.",
+    "trust_score": 75,
+    "search_topic": "cognitive load working memory productivity meta-analysis",
+    "collected_at": "2026-03-08T15:31:57.490071",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "0a28699d715df2d536b36be9b83005ba4ce5f1a6",
+    "externalIds": {
+      "PubMedCentral": "9745972",
+      "DOI": "10.1590/1980-5764-dn-2022-0006",
+      "CorpusId": 252585338,
+      "PubMed": "36530766"
+    },
+    "title": "Working memory assessment using cambridge neuropsychological test automated battery can help in the diagnosis of mild cognitive impairment: a systematic review and meta-analysis",
+    "year": 2022,
+    "citationCount": 12,
+    "openAccessPdf": {
+      "url": "https://www.scielo.br/j/dn/a/9cj7pFxvbCXTmsFcxRBfTzk/?lang=en&format=pdf",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC9745972, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Review",
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "152147402",
+        "name": "Z. Sabahi"
+      },
+      {
+        "authorId": "6084076",
+        "name": "M. Farhoudi"
+      },
+      {
+        "authorId": "2152523049",
+        "name": "A. Naseri"
+      },
+      {
+        "authorId": "1693474",
+        "name": "M. Talebi"
+      }
+    ],
+    "abstract": "ABSTRACT Mild cognitive impairment (MCI) is an interstitial state between normal aging and dementia. Objective: In this study, we investigated working memory (WM) profiles of MCI patients using the Cambridge Neuropsychological Test Automated Battery (CANTAB). We also examined the diagnostic accuracy and possible associated factors as secondary outcomes of the study. Methods: We conducted an electronic search on EMBASE, PubMed, and ScienceDirect databases. Studies with MCI participants and using CANTAB battery subtests for the assessment of WM were included. Meta-analysis was conducted using the CMA2 software. Results: Out of 1537 records, 14 studies were covered in this systematic review, and 7 of them were included in the meta-analysis. There was a significant difference between MCI patients and healthy controls in spatial working memory (SWM) (SDM: 0.535; 95%CI 11–96; p-value=0.014), spatial span (SSP) (SDM: 0.649 95%CI 0.297–0.100; p-value<0.01), and rapid visual information processing (RVP) (SDM: 0.52; 95%CI 0.386–0.654; p-value<0.01). WM function of MCI patients was associated with the cerebrospinal fluid (CSF) levels of tau-protein and amyloid-beta (Aβ). Conclusions: WM is an impaired cognitive domain in MCI. CANTAB WM subtests including SSP, SWM, and RVP are accurate enough to be used as a proper assessment tool for the diagnosis of MCI in clinical settings. Tau-protein and Aβ are associated with lower WM scores in MCI patients; however, sex, age, psychiatric disorders, apolipoprotein 4 allele, and functional activity scores cannot affect WM.",
+    "trust_score": 71,
+    "search_topic": "cognitive load working memory productivity meta-analysis",
+    "collected_at": "2026-03-08T15:31:57.491201",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "2c70680c0e6d393f3368d5e032bea3b9a1f95030",
+    "externalIds": {
+      "DOI": "10.1016/j.ejphar.2024.177225",
+      "CorpusId": 275137181,
+      "PubMed": "39740736"
+    },
+    "title": "Orofacial pain models induce impairment in spatial learning and working memory in rodents: a systematic review and meta-analysis.",
+    "year": 2024,
+    "citationCount": 3,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.ejphar.2024.177225?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.ejphar.2024.177225, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "2106955093",
+        "name": "Fernanda Tibolla Viero"
+      },
+      {
+        "authorId": "2337817966",
+        "name": "Ricardo Iuri Felix Morais"
+      },
+      {
+        "authorId": "2069258019",
+        "name": "Patrícia Rodrigues"
+      },
+      {
+        "authorId": "151211514",
+        "name": "Sabrina Qader Kudsi"
+      },
+      {
+        "authorId": "2150191596",
+        "name": "Leonardo Gomes Pereira"
+      },
+      {
+        "authorId": "2248264028",
+        "name": "Gabriela Trevisan"
+      }
+    ],
+    "abstract": "Orofacial pain is one of the most common causes of chronic pain leading to physical and cognitive disability. Several clinical and pre-clinical studies suggest that chronic pain results in cognitive impairment. However, there is a lack of meta-analyses examining the effects of orofacial pain models on behavioral learning and memory in rodents. Thus, this study aimed to evaluate whether orofacial pain models can impair learning and memory in rodents. The protocol was registered in PROSPERO (CRD42023355502). We used CAMARADES and SYRCLE to estimate the quality and the publication bias by using Egger's and Begg's test. Here, 21 studies were included in this systematic review and meta-analysis. We included 12 studies with trigeminal neuralgia models, 4 with migraine-like pain models, 4 with tooth nociception, and 1 with acute orofacial pain model. Spontaneous nociception and facial mechanical allodynia were observed in orofacial pain models. Regarding spatial learning we detected that latency to find the platform in the Morris water maze (MWM) was increased in orofacial pain models (related to facial mechanical allodynia or spontaneous nociception). Although the mean quality of the articles was high, we identify publication bias in the Begg's test for the time in the quadrant in the MWM. Our findings revealed that spontaneous nociception and facial mechanical allodynia in orofacial pain models contribute to the working memory and spatial learning dysfunction. Therefore, further studies are still needed to evaluate the influence of sex, age, social isolation, and environmental enrichment in orofacial pain-related learning and memory.",
+    "trust_score": 70,
+    "search_topic": "cognitive load working memory productivity meta-analysis",
+    "collected_at": "2026-03-08T15:31:57.491201",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "d73e748742b890dc4fa2e9780f822300f212f6b1",
+    "externalIds": {
+      "PubMedCentral": "11007231",
+      "DOI": "10.3389/fpubh.2024.1365589",
+      "CorpusId": 268766372,
+      "PubMed": "38605880"
+    },
+    "title": "Physical activity improves the visual–spatial working memory of individuals with mild cognitive impairment or Alzheimer’s disease: a systematic review and network meta-analysis",
+    "year": 2024,
+    "citationCount": 9,
+    "openAccessPdf": {
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1365589/pdf",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11007231, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "2294112334",
+        "name": "Jie Deng"
+      },
+      {
+        "authorId": "2294853559",
+        "name": "Hong Wang"
+      },
+      {
+        "authorId": "2294035051",
+        "name": "Tingting Fu"
+      },
+      {
+        "authorId": "2155590365",
+        "name": "Chonglong Xu"
+      },
+      {
+        "authorId": "2181666370",
+        "name": "Qiqi Zhu"
+      },
+      {
+        "authorId": "2258601524",
+        "name": "Liya Guo"
+      },
+      {
+        "authorId": "2291078134",
+        "name": "Yu Zhu"
+      }
+    ],
+    "abstract": "Objective Our network meta-analysis aimed to ascertain the effect of physical activity on the visual–spatial working memory of individuals with mild cognitive impairment and Alzheimer’s disease as well as to propose tailored exercise interventions for each group. Methods Employing a frequentist approach, we performed a network meta-analysis to compare the effectiveness of different exercise interventions in improving the visual–spatial working memory of individuals with mild cognitive impairment and Alzheimer’s disease. Subsequently, we explored the moderating variables influencing the effectiveness of the exercise interventions through a subgroup analysis. Results We included 34 articles involving 3,074 participants in the meta-analysis, comprised of 1,537 participants from studies on mild cognitive impairment and 1,537 participants from studies on Alzheimer’s disease. The articles included exhibited an average quality score of 6.6 (score studies) and 6.75 (reaction time [RT] studies), all passing the inconsistency test (p > 0.05). In the mild cognitive impairment literature, mind–body exercise emerged as the most effective exercise intervention (SMD = 0.61, 95% CI: 0.07–1.14). In Alzheimer’s disease research, aerobic exercise was identified as the optimal exercise intervention (SMD = 0.39, 95% CI: 0.06–0.71). Conclusion The results of the subgroup analysis suggest that the most effective approach to enhancing the visual–spatial working memory of individuals with mild cognitive impairment entails exercising at a frequency of three or more times per week for over 60 min each time and at a moderate intensity for more than 3 months. Suitable exercise options include mind–body exercise, multicomponent exercise, resistance exercise, and aerobic exercise. For individuals with Alzheimer’s disease, we recommend moderately intense exercise twice per week for over 90 min per session and for a duration of 3 months or longer, with exercise options encompassing aerobic exercise and resistance exercise.",
+    "trust_score": 65,
+    "search_topic": "cognitive load working memory productivity meta-analysis",
+    "collected_at": "2026-03-08T15:31:57.491201",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "b5a01d737bcfa11dbc292d99511a87c9a0afcbf2",
+    "externalIds": {
+      "DOI": "10.1080/15248372.2023.2172413",
+      "CorpusId": 256719811
+    },
+    "title": "Strategy and Core Cognitive Training Effects on Working Memory Performance: A Systematic Review and Meta-Analysis",
+    "year": 2023,
+    "citationCount": 7,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.1080/15248372.2023.2172413",
+      "status": "HYBRID",
+      "license": "CCBYNCND",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1080/15248372.2023.2172413?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1080/15248372.2023.2172413, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "2205280039",
+        "name": "Shachar Ben Izhak"
+      },
+      {
+        "authorId": "2389940",
+        "name": "M. Lavidor"
+      }
+    ],
+    "abstract": "ABSTRACT The field of cognitive training (CT) has been researched for over a century. However, there is still a debate regarding its ability to produce cognitive improvement, especially in working memory (WM) indices. This meta-analysis examined whether there is an advantage in training gains by comparing the results of two specific WM training approaches, Core Training (CRT) and Strategy Training (ST). Meta-analytic techniques were used to summarize 28 independent effect sizes from 24 studies with 1521 subjects, calculated only from studies that compared both training approaches in a single study. We found moderate effect sizes of trained tasks improvement with a clear advantage to ST over CRT, from which younger trainees benefitted the most. However, this advantage has almost disappeared for untrained tasks due to the limited improvement each approach produced on its own.",
+    "trust_score": 65,
+    "search_topic": "cognitive load working memory productivity meta-analysis",
+    "collected_at": "2026-03-08T15:31:57.491201",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  },
+  {
+    "paperId": "ad8f19c54529de1e863c3f2154426104137a77ff",
+    "externalIds": {
+      "PubMedCentral": "11808027",
+      "DOI": "10.3389/fpsyg.2025.1522944",
+      "CorpusId": 275938511,
+      "PubMed": "39931282"
+    },
+    "title": "Exploring the impact of different types of exercise on working memory in children with ADHD: a network meta-analysis",
+    "year": 2025,
+    "citationCount": 5,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11808027, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "2318593521",
+        "name": "Xiangqin Song"
+      },
+      {
+        "authorId": "2319085733",
+        "name": "Yaoqi Hou"
+      },
+      {
+        "authorId": "2343064020",
+        "name": "Wenying Shi"
+      },
+      {
+        "authorId": "2321964257",
+        "name": "Yan Wang"
+      },
+      {
+        "authorId": "2335235232",
+        "name": "Feifan Fan"
+      },
+      {
+        "authorId": "2343629283",
+        "name": "Liu Hong"
+      }
+    ],
+    "abstract": "Background Attention-deficit hyperactivity disorder (ADHD) is a common neurodevelopmental disorder in children, often accompanied by working memory deficits. Recently, exercise interventions have gained attention as a potential strategy to improve cognitive function in children with ADHD. However, the effects of different types of exercise on working memory remain unclear. This study aimed to assess the effects of various exercise interventions on working memory in children with ADHD using a network meta-analysis. Methods A comprehensive search was conducted in PubMed, Cochrane, Embase, and Web of Science databases for relevant studies. After screening according to the inclusion and exclusion criteria, a total of 17 eligible studies were identified for analysis. A network meta-analysis was performed to integrate data and evaluate the effects of cognitive-aerobic exercise, ball games, mind-body exercises, interactive games, and general aerobic exercise on working memory in children with ADHD. Results The results indicated significant differences in the effectiveness of various types of exercise interventions on working memory in children with ADHD. Cognitive-aerobic exercise showed the most significant effect (SMD = 0.72, 95% CI: 0.44–1.00), followed by ball games (SMD = 0.61, 95% CI: −0.12–1.35). Mind-body exercises and interactive games had moderate effects (SMD = 0.50 and 0.37, respectively), while general aerobic exercise showed relatively small effects (SMD = 0.40, 95% CI: 0.19–0.60). SUCRA analysis further confirmed the highest preference for cognitive-aerobic exercise in improving working memory. Meta-regression analysis showed that intervention frequency and total intervention duration significantly affected the effectiveness of cognitive-aerobic exercise, while other variables did not significantly moderate the effects. Conclusion Cognitive-aerobic exercise had the most significant effect on improving working memory in children with ADHD. Higher intervention frequency and longer intervention duration may enhance its effects. Future research should explore the impact of these factors and consider increasing sample sizes to validate the role of these moderators. Systematic review registration https://www.crd.york.ac.uk/PROSPERO/display_record.php?RecordID=627915.",
+    "trust_score": 60,
+    "search_topic": "cognitive load working memory productivity meta-analysis",
+    "collected_at": "2026-03-08T15:31:57.491201",
+    "evidence_level": "🥇 메타분석",
+    "status": "explained"
+  }
+]
