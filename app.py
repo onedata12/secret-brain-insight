@@ -259,7 +259,12 @@ def render_card(card, show_actions=True, show_delete=False):
             st.markdown(" ".join([f"`{k}`" for k in keywords]))
 
         with st.expander("📄 논문 정보"):
-            st.markdown(f"**제목:** {card.get('paper_title', '')}")
+            paper_title_ko = card.get("paper_title_ko", "")
+            if paper_title_ko:
+                st.markdown(f"**제목:** {paper_title_ko}")
+                st.caption(f"원문: {card.get('paper_title', '')}")
+            else:
+                st.markdown(f"**제목:** {card.get('paper_title', '')}")
             st.markdown(f"**저자:** {authors}")
             link_col1, link_col2 = st.columns(2)
             with link_col1:
@@ -273,7 +278,8 @@ def render_card(card, show_actions=True, show_delete=False):
 
         # ── 깊이 공부하기 ─────────────────────────────────
         with st.expander("🎓 깊이 공부하기 (AI 심층 분석)"):
-            st.caption("초록 기반으로 Claude가 더 깊이 분석해줍니다")
+            deep_title = card.get("paper_title_ko") or card.get("paper_title", "")
+            st.caption(f"📄 {deep_title} — 초록 기반으로 Claude가 더 깊이 분석해줍니다")
             deep_key = f"deep_{card_id}"
             if deep_key not in st.session_state:
                 if st.button("🔍 심층 분석 시작", key=f"deepbtn_{card_id}"):
@@ -303,7 +309,8 @@ def render_card(card, show_actions=True, show_delete=False):
                     ) as stream:
                         result = st.write_stream(stream.text_stream)
                     st.session_state[deep_key] = result
-                    st.rerun()
+                    if card.get("pdf_url"):
+                        st.info(f"📥 더 알고 싶으면 PDF 전문을 읽어봐: [다운로드]({card['pdf_url']})")
             else:
                 st.markdown(st.session_state[deep_key])
                 if card.get("pdf_url"):
@@ -392,7 +399,6 @@ def render_card(card, show_actions=True, show_delete=False):
                     ) as stream:
                         answer = st.write_stream(stream.text_stream)
                 st.session_state[chat_key].append({"role": "assistant", "content": answer})
-                st.rerun()
 
         # ── 액션 버튼 ─────────────────────────────────────
         if show_actions and card.get("status") == "pending":
@@ -424,12 +430,25 @@ if page == "📥 검토 대기":
     else:
         st.caption(f"총 {len(pending)}개 카드 검토 대기 중")
 
-        topics_in_pending = list(set(c.get("topic", "") for c in pending))
-        selected_topic = st.selectbox("주제 필터", ["전체"] + topics_in_pending)
+        filter_col1, filter_col2 = st.columns(2)
+        with filter_col1:
+            topics_in_pending = list(set(c.get("topic", "") for c in pending))
+            selected_topic = st.selectbox("주제 필터", ["전체"] + topics_in_pending)
+        with filter_col2:
+            sort_option = st.selectbox("정렬", ["최신순", "오래된순", "인용수 높은순", "인용수 낮은순"])
 
         filtered = pending if selected_topic == "전체" else [
             c for c in pending if c.get("topic") == selected_topic
         ]
+
+        if sort_option == "최신순":
+            filtered.sort(key=lambda c: c.get("year", 0), reverse=True)
+        elif sort_option == "오래된순":
+            filtered.sort(key=lambda c: c.get("year", 0))
+        elif sort_option == "인용수 높은순":
+            filtered.sort(key=lambda c: c.get("citations", 0), reverse=True)
+        elif sort_option == "인용수 낮은순":
+            filtered.sort(key=lambda c: c.get("citations", 0))
 
         for card in filtered:
             render_card(card, show_actions=True)
@@ -446,12 +465,25 @@ elif page == "✅ 승인된 카드":
     if not approved:
         st.info("아직 승인된 카드가 없어요.")
     else:
-        topics = list(set(c.get("topic", "") for c in approved))
-        selected_topic = st.selectbox("주제 필터", ["전체"] + topics)
+        filter_col1, filter_col2 = st.columns(2)
+        with filter_col1:
+            topics = list(set(c.get("topic", "") for c in approved))
+            selected_topic = st.selectbox("주제 필터", ["전체"] + topics)
+        with filter_col2:
+            sort_option = st.selectbox("정렬", ["최신순", "오래된순", "인용수 높은순", "인용수 낮은순"])
 
         filtered = approved if selected_topic == "전체" else [
             c for c in approved if c.get("topic") == selected_topic
         ]
+
+        if sort_option == "최신순":
+            filtered.sort(key=lambda c: c.get("year", 0), reverse=True)
+        elif sort_option == "오래된순":
+            filtered.sort(key=lambda c: c.get("year", 0))
+        elif sort_option == "인용수 높은순":
+            filtered.sort(key=lambda c: c.get("citations", 0), reverse=True)
+        elif sort_option == "인용수 낮은순":
+            filtered.sort(key=lambda c: c.get("citations", 0))
 
         st.caption(f"{len(filtered)}개 카드")
         for card in filtered:
@@ -723,22 +755,39 @@ elif page == "🚀 수집 실행":
         st.caption("Semantic Scholar에서 메타분석 논문 수집")
 
         if st.button("🔍 논문 수집 시작", type="primary", use_container_width=True):
-            from collector import run_collection
+            from collector import search_papers, save_papers
             topics_check = load_topics()
             if not topics_check:
                 st.error("주제가 없어요. '주제 관리' 메뉴에서 먼저 주제를 추가해주세요.")
             else:
-                with st.spinner(f"논문 수집 중... ({len(topics_check)}개 주제, 최대 1~2분 소요)"):
+                total_topics = len(topics_check)
+                progress_bar = st.progress(0, text="논문 수집 준비 중...")
+                status_box = st.status(f"논문 수집 중... (0/{total_topics} 주제)", expanded=True)
+                total_added = 0
+                had_error = False
+                for i, topic_obj in enumerate(topics_check):
+                    topic_name = topic_obj.get("name", "")
+                    query = topic_obj.get("query", topic_name)
+                    progress_bar.progress(
+                        i / total_topics,
+                        text=f"주제 {i+1}/{total_topics} 수집 중: {topic_name}"
+                    )
+                    status_box.write(f"🔍 **{topic_name}** 검색 중...")
                     try:
-                        count = run_collection()
-                        count = count or 0
+                        papers = search_papers(query)
+                        added = save_papers(papers)
+                        total_added += added
+                        status_box.write(f"   → {len(papers)}편 검색, {added}편 신규 저장")
                     except Exception as e:
-                        st.error(f"수집 중 오류 발생: {e}")
-                        count = -1
-                if count >= 0:
-                    st.success(f"✅ {count}편 신규 논문 수집 완료!")
-                    win_notify("논문 수집 완료", f"{count}편 신규 논문 수집됐어요!")
-                    st.rerun()
+                        status_box.write(f"   ⚠️ {topic_name} 수집 오류: {e}")
+                        had_error = True
+                progress_bar.progress(1.0, text="수집 완료!")
+                status_box.update(label=f"논문 수집 완료! ({total_added}편 신규)", state="complete")
+                if not had_error:
+                    st.success(f"✅ {total_added}편 신규 논문 수집 완료!")
+                else:
+                    st.warning(f"⚠️ 일부 오류 발생. {total_added}편 신규 논문 수집됨.")
+                win_notify("논문 수집 완료", f"{total_added}편 신규 논문 수집됐어요!")
 
     with col2:
         st.subheader("2단계: 카드 생성")
@@ -749,27 +798,48 @@ elif page == "🚀 수집 실행":
             if not api_key or api_key == "여기에_API_키_입력":
                 st.error("⚠️ .env 파일에 ANTHROPIC_API_KEY를 설정해주세요!")
             else:
+                all_papers = load_json("data/papers.json", [])
+                existing_cards = load_cards()
+                existing_card_ids = {c.get("id") for c in existing_cards}
                 papers_pending = [
-                    p for p in load_json("data/papers.json", [])
+                    p for p in all_papers
                     if p.get("status") == "pending_explanation"
+                    and p.get("paperId") not in existing_card_ids
                 ]
                 if not papers_pending:
                     st.info("처리할 새 논문이 없어요. 먼저 논문을 수집해주세요.")
                 else:
+                    from explainer import generate_card
+                    total_papers = len(papers_pending)
                     progress_bar = st.progress(0, text="카드 생성 준비 중...")
-                    from explainer import generate_card, run_explanation
-                    with st.spinner(f"AI가 카드 생성 중... ({len(papers_pending)}개 논문)"):
+                    status_box = st.status(f"AI가 카드 생성 중... (0/{total_papers})", expanded=True)
+                    new_cards = []
+                    for i, paper in enumerate(papers_pending):
+                        title_short = (paper.get("title") or "")[:40]
+                        progress_bar.progress(
+                            i / total_papers,
+                            text=f"카드 {i+1}/{total_papers} 생성 중: {title_short}..."
+                        )
+                        status_box.write(f"🤖 [{i+1}/{total_papers}] {title_short}...")
                         try:
-                            count = run_explanation()
-                            count = count or 0
+                            card = generate_card(paper)
+                            if card:
+                                new_cards.append(card)
+                                paper["status"] = "explained"
+                                status_box.write(f"   ✅ 생성 완료")
+                            else:
+                                status_box.write(f"   ⏭ 건너뜀 (초록 없음)")
                         except Exception as e:
-                            st.error(f"카드 생성 중 오류: {e}")
-                            count = -1
-                    progress_bar.empty()
-                    if count >= 0:
-                        st.success(f"✅ {count}개 카드 생성 완료! '검토 대기' 메뉴에서 확인하세요.")
-                        win_notify("카드 생성 완료", f"{count}개 카드가 검토 대기 중이에요!")
-                        st.rerun()
+                            status_box.write(f"   ⚠️ 오류: {e}")
+                    progress_bar.progress(1.0, text="카드 생성 완료!")
+                    # 저장
+                    if new_cards:
+                        all_cards = existing_cards + new_cards
+                        save_json("data/cards.json", all_cards)
+                        save_json("data/papers.json", all_papers)
+                    status_box.update(label=f"카드 생성 완료! ({len(new_cards)}개)", state="complete")
+                    st.success(f"✅ {len(new_cards)}개 카드 생성 완료! '검토 대기' 메뉴에서 확인하세요.")
+                    win_notify("카드 생성 완료", f"{len(new_cards)}개 카드가 검토 대기 중이에요!")
 
     st.divider()
     st.subheader("⚡ 한 번에 실행")
@@ -778,26 +848,75 @@ elif page == "🚀 수집 실행":
         if not api_key or api_key == "여기에_API_키_입력":
             st.error("⚠️ .env 파일에 ANTHROPIC_API_KEY를 설정해주세요!")
         else:
-            from collector import run_collection
-            from explainer import run_explanation
-            with st.spinner("논문 수집 중..."):
-                try:
-                    collected = run_collection()
-                    collected = collected or 0
-                except Exception as e:
-                    st.error(f"수집 오류: {e}")
-                    collected = 0
-            with st.spinner("카드 생성 중..."):
-                try:
-                    cards_made = run_explanation()
-                    cards_made = cards_made or 0
-                except Exception as e:
-                    st.error(f"카드 생성 오류: {e}")
+            from collector import search_papers, save_papers
+            from explainer import generate_card
+
+            topics_check = load_topics()
+            if not topics_check:
+                st.error("주제가 없어요. '주제 관리' 메뉴에서 먼저 주제를 추가해주세요.")
+            else:
+                # ── 1단계: 논문 수집 ──
+                total_topics = len(topics_check)
+                progress_bar = st.progress(0, text="논문 수집 준비 중...")
+                status_box = st.status(f"1단계: 논문 수집 중... (0/{total_topics} 주제)", expanded=True)
+                total_collected = 0
+                for i, topic_obj in enumerate(topics_check):
+                    topic_name = topic_obj.get("name", "")
+                    query = topic_obj.get("query", topic_name)
+                    progress_bar.progress(
+                        (i / total_topics) * 0.4,
+                        text=f"[수집] 주제 {i+1}/{total_topics}: {topic_name}"
+                    )
+                    status_box.write(f"🔍 **{topic_name}** 검색 중...")
+                    try:
+                        papers = search_papers(query)
+                        added = save_papers(papers)
+                        total_collected += added
+                        status_box.write(f"   → {len(papers)}편 검색, {added}편 신규")
+                    except Exception as e:
+                        status_box.write(f"   ⚠️ {topic_name} 오류: {e}")
+                status_box.update(label=f"1단계 완료: {total_collected}편 수집", state="complete")
+
+                # ── 2단계: 카드 생성 ──
+                all_papers = load_json("data/papers.json", [])
+                existing_cards = load_cards()
+                existing_card_ids = {c.get("id") for c in existing_cards}
+                papers_pending = [
+                    p for p in all_papers
+                    if p.get("status") == "pending_explanation"
+                    and p.get("paperId") not in existing_card_ids
+                ]
+                if papers_pending:
+                    total_papers = len(papers_pending)
+                    status_box2 = st.status(f"2단계: 카드 생성 중... (0/{total_papers})", expanded=True)
+                    new_cards = []
+                    for i, paper in enumerate(papers_pending):
+                        title_short = (paper.get("title") or "")[:40]
+                        progress_bar.progress(
+                            0.4 + (i / total_papers) * 0.6,
+                            text=f"[카드] {i+1}/{total_papers}: {title_short}..."
+                        )
+                        status_box2.write(f"🤖 [{i+1}/{total_papers}] {title_short}...")
+                        try:
+                            card = generate_card(paper)
+                            if card:
+                                new_cards.append(card)
+                                paper["status"] = "explained"
+                        except Exception as e:
+                            status_box2.write(f"   ⚠️ 오류: {e}")
+                    if new_cards:
+                        all_cards = existing_cards + new_cards
+                        save_json("data/cards.json", all_cards)
+                        save_json("data/papers.json", all_papers)
+                    status_box2.update(label=f"2단계 완료: {len(new_cards)}개 카드 생성", state="complete")
+                    cards_made = len(new_cards)
+                else:
                     cards_made = 0
-            st.success(f"✅ 완료! 논문 {collected}편 수집, 카드 {cards_made}개 생성")
-            if cards_made > 0:
-                win_notify("수집 & 생성 완료", f"논문 {collected}편, 카드 {cards_made}개 완료!")
-            st.rerun()
+
+                progress_bar.progress(1.0, text="모든 작업 완료!")
+                st.success(f"✅ 완료! 논문 {total_collected}편 수집, 카드 {cards_made}개 생성")
+                if cards_made > 0:
+                    win_notify("수집 & 생성 완료", f"논문 {total_collected}편, 카드 {cards_made}개 완료!")
 
     st.divider()
     st.subheader("📅 자동 실행 상태")
