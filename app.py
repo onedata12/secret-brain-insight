@@ -22,8 +22,60 @@ st.set_page_config(
     layout="wide"
 )
 
-# ── 데이터 로드/저장 헬퍼 ────────────────────────────────
+# ── 모바일 최적화 CSS ────────────────────────────────────
+st.markdown("""
+<style>
+@media (max-width: 768px) {
+    .block-container {
+        padding: 0.5rem !important;
+        padding-top: 1rem !important;
+        max-width: 100% !important;
+    }
+    h1 { font-size: 1.4rem !important; }
+    h2 { font-size: 1.2rem !important; }
+    h3 { font-size: 1.05rem !important; }
+    .stTabs [data-baseweb="tab"] {
+        font-size: 11px !important;
+        padding: 4px 5px !important;
+        min-width: 0 !important;
+    }
+    [data-testid="stSidebar"] { min-width: 180px !important; }
+    [data-testid="column"] { gap: 0.3rem !important; }
+    .stButton button { font-size: 13px !important; padding: 0.3rem 0.6rem !important; }
+    .stExpander { margin-bottom: 0.5rem !important; }
+}
+/* 테이블 모바일 스크롤 */
+table {
+    display: block !important;
+    overflow-x: auto !important;
+    max-width: 100% !important;
+    font-size: 13px !important;
+    white-space: nowrap !important;
+}
+/* 채팅 메시지 */
+[data-testid="stChatMessage"] { padding: 8px !important; }
+/* 채팅 입력창 하단 고정 느낌 */
+.stChatInputContainer { padding: 0.3rem !important; }
+</style>
+""", unsafe_allow_html=True)
 
+
+# ── 윈도우 알림 헬퍼 ────────────────────────────────────
+def win_notify(title: str, message: str):
+    """윈도우 토스트 알림 (plyer 설치된 경우)"""
+    try:
+        from plyer import notification
+        notification.notify(
+            title=title,
+            message=message,
+            app_name="시크릿 브레인",
+            timeout=8
+        )
+    except Exception:
+        pass
+
+
+# ── 데이터 로드/저장 헬퍼 ────────────────────────────────
 def load_json(path, default):
     if os.path.exists(path):
         with open(path, "r", encoding="utf-8") as f:
@@ -52,15 +104,18 @@ def update_card_status(card_id, status):
             card["reviewed_at"] = datetime.now().isoformat()
     save_json("data/cards.json", cards)
 
+def delete_card(card_id):
+    """카드 완전 삭제"""
+    cards = load_cards()
+    cards = [c for c in cards if c.get("id") != card_id]
+    save_json("data/cards.json", cards)
+
 def get_review_due_cards() -> list:
-    """복습이 필요한 카드 반환 (간격 반복 기준)"""
     from datetime import timedelta
     cards = load_cards()
     approved = [c for c in cards if c.get("status") == "approved"]
     due = []
     now = datetime.now()
-
-    # 복습 간격: 1일 → 3일 → 7일 → 14일 → 30일
     intervals = [1, 3, 7, 14, 30]
 
     for card in approved:
@@ -68,7 +123,6 @@ def get_review_due_cards() -> list:
         review_count = len(review_log)
 
         if review_count == 0:
-            # 승인 후 1일 지나면 첫 복습
             approved_at = card.get("reviewed_at") or card.get("generated_at", "")
             if approved_at:
                 approved_dt = datetime.fromisoformat(approved_at[:19])
@@ -83,7 +137,6 @@ def get_review_due_cards() -> list:
     return due
 
 def mark_reviewed(card_id: str):
-    """복습 완료 기록"""
     cards = load_cards()
     for card in cards:
         if card.get("id") == card_id:
@@ -91,6 +144,15 @@ def mark_reviewed(card_id: str):
                 card["review_log"] = []
             card["review_log"].append(datetime.now().isoformat())
     save_json("data/cards.json", cards)
+
+
+# ── 첫 로드시 검토 대기 알림 ─────────────────────────────
+if "notified_pending" not in st.session_state:
+    st.session_state["notified_pending"] = True
+    _pending_count = sum(1 for c in load_cards() if c.get("status") == "pending")
+    if _pending_count > 0:
+        win_notify("시크릿 브레인 인사이트 뱅크", f"검토 대기 카드 {_pending_count}개가 있어요!")
+
 
 # ── 사이드바 ─────────────────────────────────────────────
 with st.sidebar:
@@ -100,7 +162,9 @@ with st.sidebar:
 
     page = st.radio(
         "메뉴",
-        ["📥 검토 대기", "✅ 승인된 카드", "🎙️ 데일리 팟캐스트", "🧠 복습 & 파인만 모드", "📊 콘텐츠 뱅크", "📖 논문 원문 읽기", "⚙️ 주제 관리", "🚀 수집 실행"]
+        ["📥 검토 대기", "✅ 승인된 카드", "🎙️ 데일리 팟캐스트",
+         "🧠 복습 & 파인만 모드", "📊 콘텐츠 뱅크", "📖 논문 원문 읽기",
+         "⚙️ 주제 관리", "🚀 수집 실행"]
     )
 
     st.divider()
@@ -113,14 +177,13 @@ with st.sidebar:
     if due_cards:
         st.warning(f"🔔 복습 {len(due_cards)}개 대기 중")
 
+
 # ── 카드 렌더링 함수 ──────────────────────────────────────
 
 def get_trust_info(card: dict) -> dict:
-    """일반인용 신뢰도 정보 계산"""
     evidence = card.get("evidence_level", "")
     citations = card.get("citations", 0)
 
-    # 기본 점수
     if "메타분석" in evidence:
         base = 5
     elif "체계적 문헌고찰" in evidence:
@@ -132,27 +195,24 @@ def get_trust_info(card: dict) -> dict:
     else:
         base = 2
 
-    # 인용 수 보정
     if citations >= 500:
         base = min(base + 1, 5)
     elif citations < 20 and base > 2:
         base = base - 1
 
     stars = "⭐" * base + "☆" * (5 - base)
-
     labels = {
-        5: ("🟢 매우 신뢰할 수 있음", "수백~수천 명 이상을 대상으로 여러 연구를 종합한 결과예요. 현재 가장 강력한 과학적 근거입니다."),
-        4: ("🟢 신뢰할 수 있음", "다수의 연구를 체계적으로 검토한 결과예요. 충분히 믿을 만합니다."),
-        3: ("🟡 참고할 만함", "실험으로 검증된 연구지만 단일 연구예요. 방향성은 믿을 수 있어요."),
-        2: ("🟠 참고용", "관찰 연구나 소규모 연구예요. 하나의 시각으로 참고하세요."),
-        1: ("🔴 주의 필요", "근거가 제한적이에요. 다른 연구와 함께 참고하는 것을 권장해요."),
+        5: ("🟢 매우 신뢰할 수 있음", "수백~수천 명 이상을 대상으로 여러 연구를 종합한 결과예요."),
+        4: ("🟢 신뢰할 수 있음", "다수의 연구를 체계적으로 검토한 결과예요."),
+        3: ("🟡 참고할 만함", "실험으로 검증된 연구지만 단일 연구예요."),
+        2: ("🟠 참고용", "관찰 연구나 소규모 연구예요."),
+        1: ("🔴 주의 필요", "근거가 제한적이에요. 다른 연구와 함께 참고하세요."),
     }
-
     label, desc = labels.get(base, labels[2])
     return {"stars": stars, "score": base, "label": label, "desc": desc}
 
 
-def render_card(card, show_actions=True):
+def render_card(card, show_actions=True, show_delete=False):
     evidence = card.get("evidence_level", "📄")
     topic = card.get("topic", "")
     year = card.get("year", "")
@@ -162,28 +222,20 @@ def render_card(card, show_actions=True):
     card_id = card.get("id", "")
 
     with st.container(border=True):
-        # 헤더
         col1, col2 = st.columns([3, 1])
         with col1:
             st.markdown(f"### {card.get('headline', '')}")
             st.caption(f"{evidence} | 📌 {topic} | {year}년 | 인용 {citations}회")
         with col2:
             if card.get("doi_url"):
-                st.link_button("원문 보기 →", card["doi_url"])
+                st.link_button("원문 →", card["doi_url"])
 
-        # 신뢰도 배지
-        st.markdown(
-            f"**{trust['stars']}** &nbsp; {trust['label']}",
-            help=trust['desc']
-        )
+        st.markdown(f"**{trust['stars']}** &nbsp; {trust['label']}", help=trust['desc'])
         st.caption(trust['desc'])
-
         st.divider()
 
-        # 핵심 인사이트
         st.markdown(f"**💡 핵심:** {card.get('one_line', '')}")
 
-        # 탭으로 내용 구분
         tab1, tab2, tab3 = st.tabs(["🗣️ 쉬운 설명", "📱 SNS 문구", "🏠 랜딩 문구"])
 
         with tab1:
@@ -193,23 +245,19 @@ def render_card(card, show_actions=True):
         with tab2:
             st.success(f"**시크릿 브레인 인사이트:**\n\n{card.get('secret_brain_insight', '')}")
             st.divider()
-            sns = card.get("sns_copy", "")
-            st.code(sns, language=None)
+            st.code(card.get("sns_copy", ""), language=None)
             if st.button("📋 복사", key=f"sns_{card_id}"):
                 st.toast("클립보드에 복사됨!")
 
         with tab3:
-            landing = card.get("landing_copy", "")
-            st.code(landing, language=None)
+            st.code(card.get("landing_copy", ""), language=None)
             if st.button("📋 복사", key=f"landing_{card_id}"):
                 st.toast("클립보드에 복사됨!")
 
-        # 키워드
         keywords = card.get("keywords", [])
         if keywords:
             st.markdown(" ".join([f"`{k}`" for k in keywords]))
 
-        # 논문 정보 + PDF 링크
         with st.expander("📄 논문 정보"):
             st.markdown(f"**제목:** {card.get('paper_title', '')}")
             st.markdown(f"**저자:** {authors}")
@@ -223,7 +271,7 @@ def render_card(card, show_actions=True):
                 if card.get("doi_url"):
                     st.link_button("🔗 저널 페이지 바로가기", card["doi_url"], use_container_width=True)
 
-        # 깊이 공부하기
+        # ── 깊이 공부하기 ─────────────────────────────────
         with st.expander("🎓 깊이 공부하기 (AI 심층 분석)"):
             st.caption("초록 기반으로 Claude가 더 깊이 분석해줍니다")
             deep_key = f"deep_{card_id}"
@@ -233,8 +281,8 @@ def render_card(card, show_actions=True):
                     load_dotenv()
                     import anthropic as _anthropic
                     client = _anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
-                    with st.spinner("분석 중... (약 15초)"):
-                        prompt = f"""아래 논문 초록을 바탕으로 깊이 공부하고 싶은 사람을 위한 심층 분석을 해줘. 반말로, 친구한테 설명하듯이.
+                    prompt = f"""아래 논문 초록을 바탕으로 깊이 공부하고 싶은 사람을 위한 심층 분석을 해줘. 반말로, 친구한테 설명하듯이.
+중요: 마크다운 헤더(#, ##, ###) 절대 사용하지 마. 숫자 목록과 굵은 글씨(**텍스트**)만 사용해.
 
 논문: {card.get('paper_title', '')}
 초록: {card.get('abstract_text', '')}
@@ -247,30 +295,32 @@ def render_card(card, show_actions=True):
 4. **왜 이게 중요해?** - 이 발견이 세상에 어떤 의미야?
 5. **한계점** - 이 연구에서 아쉬운 점이나 주의할 점은?
 6. **더 공부하려면** - 이 주제 더 깊이 알고 싶으면 어떤 키워드로 찾아봐야 해?"""
-                        msg = client.messages.create(
-                            model="claude-sonnet-4-6",
-                            max_tokens=1500,
-                            messages=[{"role": "user", "content": prompt}]
-                        )
-                        st.session_state[deep_key] = msg.content[0].text
+
+                    with client.messages.stream(
+                        model="claude-sonnet-4-6",
+                        max_tokens=2500,
+                        messages=[{"role": "user", "content": prompt}]
+                    ) as stream:
+                        result = st.write_stream(stream.text_stream)
+                    st.session_state[deep_key] = result
                     st.rerun()
             else:
                 st.markdown(st.session_state[deep_key])
                 if card.get("pdf_url"):
                     st.info(f"📥 더 알고 싶으면 PDF 전문을 읽어봐: [다운로드]({card['pdf_url']})")
 
-        # 오디오 듣기
+        # ── 오디오 듣기 ──────────────────────────────────
         with st.expander("🔊 오디오로 듣기"):
             from audio_player import show_card_audio
             show_card_audio(card)
 
-        # 원문 읽기 (인라인 expander)
+        # ── 초록 원문 읽기 ────────────────────────────────
         if card.get("abstract_text"):
             with st.expander("📖 초록 원문 읽기 (영어↔한국어)"):
                 from paper_reader import show_paper_reader
                 show_paper_reader(card)
 
-        # 논문 Q&A 채팅
+        # ── 논문 Q&A 채팅 ─────────────────────────────────
         with st.expander("💬 이 논문에 대해 질문하기"):
             chat_key = f"chat_{card_id}"
             if chat_key not in st.session_state:
@@ -278,11 +328,10 @@ def render_card(card, show_actions=True):
 
             # 대화 기록 표시
             for msg in st.session_state[chat_key]:
-                role_label = "나" if msg["role"] == "user" else "AI"
                 with st.chat_message(msg["role"]):
                     st.markdown(msg["content"])
 
-            # 질문 예시
+            # 예시 질문 (대화 없을 때만)
             if not st.session_state[chat_key]:
                 st.caption("예시 질문:")
                 ex_cols = st.columns(2)
@@ -306,7 +355,7 @@ def render_card(card, show_actions=True):
                 st.session_state[f"pending_q_{card_id}"] = user_q
                 st.rerun()
 
-            # 답변 생성
+            # 답변 생성 (스트리밍)
             pending_key = f"pending_q_{card_id}"
             if pending_key in st.session_state:
                 q = st.session_state.pop(pending_key)
@@ -315,11 +364,13 @@ def render_card(card, show_actions=True):
                 import anthropic as _anthropic
                 client = _anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
 
-                history = st.session_state[chat_key][:-1]  # 마지막 질문 제외
+                history = st.session_state[chat_key][:-1]
                 messages = [
                     {
                         "role": "user",
-                        "content": f"""너는 아래 논문을 완전히 이해한 전문가야. 일반인 친구한테 반말로 친근하게 설명해줘. 모르는 건 모른다고 솔직하게 말해.
+                        "content": f"""너는 아래 논문을 완전히 이해한 전문가야. 일반인 친구한테 반말로 친근하게 설명해줘.
+중요: 마크다운 헤더(#, ##, ###) 절대 사용하지 마. 굵은 글씨와 일반 텍스트만 써.
+모르는 건 모른다고 솔직하게 말해.
 
 논문 제목: {card.get('paper_title', '')}
 논문 초록: {card.get('abstract_text', '')}
@@ -333,17 +384,17 @@ def render_card(card, show_actions=True):
                     messages.append({"role": h["role"], "content": h["content"]})
                 messages.append({"role": "user", "content": q})
 
-                with st.spinner("생각 중..."):
-                    response = client.messages.create(
+                with st.chat_message("assistant"):
+                    with client.messages.stream(
                         model="claude-sonnet-4-6",
-                        max_tokens=800,
+                        max_tokens=1500,
                         messages=messages
-                    )
-                    answer = response.content[0].text
-                    st.session_state[chat_key].append({"role": "assistant", "content": answer})
+                    ) as stream:
+                        answer = st.write_stream(stream.text_stream)
+                st.session_state[chat_key].append({"role": "assistant", "content": answer})
                 st.rerun()
 
-        # 액션 버튼
+        # ── 액션 버튼 ─────────────────────────────────────
         if show_actions and card.get("status") == "pending":
             col_a, col_b, _ = st.columns([1, 1, 3])
             with col_a:
@@ -354,6 +405,11 @@ def render_card(card, show_actions=True):
                 if st.button("❌ 거절", key=f"reject_{card_id}"):
                     update_card_status(card_id, "rejected")
                     st.rerun()
+
+        if show_delete:
+            if st.button("🗑️ 카드 삭제", key=f"del_{card_id}", type="secondary"):
+                delete_card(card_id)
+                st.rerun()
 
 
 # ── 페이지: 검토 대기 ────────────────────────────────────
@@ -368,7 +424,6 @@ if page == "📥 검토 대기":
     else:
         st.caption(f"총 {len(pending)}개 카드 검토 대기 중")
 
-        # 주제 필터
         topics_in_pending = list(set(c.get("topic", "") for c in pending))
         selected_topic = st.selectbox("주제 필터", ["전체"] + topics_in_pending)
 
@@ -400,7 +455,7 @@ elif page == "✅ 승인된 카드":
 
         st.caption(f"{len(filtered)}개 카드")
         for card in filtered:
-            render_card(card, show_actions=False)
+            render_card(card, show_actions=False, show_delete=True)
 
 
 # ── 페이지: 데일리 팟캐스트 ──────────────────────────────
@@ -428,18 +483,30 @@ elif page == "📊 콘텐츠 뱅크":
 
         with tab_sns:
             for card in approved:
+                cid = card.get("id", "")
                 with st.expander(f"{card.get('headline', '')} ({card.get('topic', '')})"):
                     st.code(card.get("sns_copy", ""), language=None)
+                    if st.button("🗑️ 삭제", key=f"del_sns_{cid}"):
+                        delete_card(cid)
+                        st.rerun()
 
         with tab_landing:
             for card in approved:
+                cid = card.get("id", "")
                 with st.expander(f"{card.get('headline', '')} ({card.get('topic', '')})"):
                     st.code(card.get("landing_copy", ""), language=None)
+                    if st.button("🗑️ 삭제", key=f"del_landing_{cid}"):
+                        delete_card(cid)
+                        st.rerun()
 
         with tab_insight:
             for card in approved:
+                cid = card.get("id", "")
                 with st.expander(f"{card.get('headline', '')} ({card.get('topic', '')})"):
                     st.markdown(card.get("secret_brain_insight", ""))
+                    if st.button("🗑️ 삭제", key=f"del_insight_{cid}"):
+                        delete_card(cid)
+                        st.rerun()
 
 
 # ── 페이지: 복습 & 파인만 모드 ──────────────────────────
@@ -452,7 +519,6 @@ elif page == "🧠 복습 & 파인만 모드":
 
     tab_review, tab_feynman = st.tabs(["🔔 복습 알림", "🎓 파인만 모드"])
 
-    # ── 복습 탭 ──────────────────────────────────────────
     with tab_review:
         if not due_cards:
             st.success("✅ 오늘 복습할 카드가 없어! 다음 복습까지 푹 쉬어.")
@@ -478,7 +544,6 @@ elif page == "🧠 복습 & 파인만 모드":
                     with col2:
                         st.caption(f"다음 복습: {next_interval}일 후")
 
-                    # 기억 테스트 - 먼저 스스로 떠올리게
                     recall_key = f"recall_{card.get('id','')}"
                     if recall_key not in st.session_state:
                         st.markdown("**이 논문에서 배운 거 뭐였지? 먼저 떠올려봐 👇**")
@@ -498,7 +563,6 @@ elif page == "🧠 복습 & 파인만 모드":
                                 st.session_state[recall_key] = "(스킵)"
                                 st.rerun()
                     else:
-                        # 정답 공개
                         st.info(f"💡 **핵심:** {card.get('one_line', '')}")
                         st.markdown(card.get('easy_explanation', ''))
 
@@ -508,7 +572,6 @@ elif page == "🧠 복습 & 파인만 모드":
                                 del st.session_state[recall_key]
                             st.rerun()
 
-    # ── 파인만 모드 탭 ────────────────────────────────────
     with tab_feynman:
         st.markdown("**Claude가 완전히 모르는 척하고 질문을 던져. 설명하다 막히는 부분 = 아직 모르는 부분이야.**")
         st.caption("연구에 따르면 남에게 설명하는 것이 혼자 공부하는 것보다 기억 정착률이 50% 높아.")
@@ -516,7 +579,6 @@ elif page == "🧠 복습 & 파인만 모드":
         if not approved:
             st.info("승인된 카드가 없어요.")
         else:
-            # 카드 선택
             card_options = {f"{c.get('headline', c.get('paper_title','')[:30])} ({c.get('topic','')})": c for c in approved}
             selected_label = st.selectbox("어떤 논문으로 연습할까?", list(card_options.keys()))
             selected_card = card_options[selected_label]
@@ -527,12 +589,10 @@ elif page == "🧠 복습 & 파인만 모드":
 
             st.divider()
 
-            # 대화 기록
             for msg in st.session_state[feynman_key]:
                 with st.chat_message(msg["role"]):
                     st.markdown(msg["content"])
 
-            # 시작 버튼
             if not st.session_state[feynman_key]:
                 st.markdown("준비되면 시작 버튼 눌러. Claude가 궁금한 척 질문 던질게.")
                 if st.button("🎓 파인만 모드 시작", type="primary"):
@@ -542,7 +602,6 @@ elif page == "🧠 복습 & 파인만 모드":
                     })
                     st.rerun()
 
-            # 초기화
             if st.session_state[feynman_key]:
                 col1, col2 = st.columns([4, 1])
                 with col2:
@@ -550,19 +609,17 @@ elif page == "🧠 복습 & 파인만 모드":
                         del st.session_state[feynman_key]
                         st.rerun()
 
-            # 입력
             user_input = st.chat_input("설명해봐!", key=f"feynman_input_{selected_card.get('id','')}")
             if user_input and st.session_state.get(feynman_key):
                 st.session_state[feynman_key].append({"role": "user", "content": user_input})
 
-                # Claude 응답 생성
                 import anthropic as _anthropic
                 from dotenv import load_dotenv as _load
                 _load()
                 client = _anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
 
                 system_prompt = f"""너는 아무것도 모르는 호기심 많은 친구야. 상대방이 아래 논문 내용을 설명하고 있어.
-절대 정보를 먼저 알려주지 마. 오직 질문만 해.
+절대 정보를 먼저 알려주지 마. 오직 질문만 해. 마크다운 헤더(#, ##) 절대 쓰지 마.
 
 전략:
 - 설명이 명확하면: "오 그래서 그게 구체적으로 어떻게 되는 거야?"
@@ -580,15 +637,15 @@ elif page == "🧠 복습 & 파인만 모드":
                 messages = [{"role": m["role"], "content": m["content"]}
                            for m in st.session_state[feynman_key]]
 
-                with st.spinner("생각 중..."):
-                    response = client.messages.create(
+                with st.chat_message("assistant"):
+                    with client.messages.stream(
                         model="claude-sonnet-4-6",
-                        max_tokens=500,
+                        max_tokens=600,
                         system=system_prompt,
                         messages=messages
-                    )
-                    answer = response.content[0].text
-                    st.session_state[feynman_key].append({"role": "assistant", "content": answer})
+                    ) as stream:
+                        answer = st.write_stream(stream.text_stream)
+                st.session_state[feynman_key].append({"role": "assistant", "content": answer})
                 st.rerun()
 
 
@@ -598,7 +655,6 @@ elif page == "⚙️ 주제 관리":
 
     topics = load_topics()
 
-    # 기본 주제 초기화
     if not topics:
         default_topics = [
             {"name": "미루기", "query": "procrastination meta-analysis psychology", "active": True},
@@ -625,35 +681,35 @@ elif page == "⚙️ 주제 관리":
     st.subheader("새 주제 추가")
 
     with st.form("add_topic"):
-        col1, col2 = st.columns(2)
-        with col1:
-            new_name = st.text_input("주제 이름 (한국어)", placeholder="예: 수면과 인지능력")
-        with col2:
-            new_query = st.text_input("검색 쿼리 (영어)", placeholder="예: sleep cognitive performance meta-analysis")
-
-        st.caption("💡 검색 쿼리는 영어로 입력하면 더 많은 논문을 찾을 수 있어요")
+        new_name = st.text_input("주제 이름", placeholder="예: 수면과 인지능력")
+        new_query = st.text_input(
+            "검색 쿼리 (선택사항 — 비워두면 자동 생성)",
+            placeholder="예: sleep cognitive performance meta-analysis"
+        )
+        st.caption("💡 검색 쿼리를 비워두면 주제 이름으로 자동 검색해요")
 
         if st.form_submit_button("추가하기", type="primary"):
-            if new_name and new_query:
-                topics.append({"name": new_name, "query": new_query, "active": True})
+            if new_name:
+                query = new_query.strip() if new_query.strip() else f"{new_name} meta-analysis"
+                topics.append({"name": new_name, "query": query, "active": True})
                 save_topics(topics)
                 st.success(f"'{new_name}' 주제 추가됨!")
                 st.rerun()
             else:
-                st.error("주제 이름과 검색 쿼리를 모두 입력해주세요.")
+                st.error("주제 이름을 입력해주세요.")
 
     st.divider()
     st.subheader("주제 예시")
     st.markdown("""
-    | 주제 | 검색 쿼리 예시 |
-    |------|--------------|
-    | 습관 형성 | `habit formation behavior change meta-analysis` |
-    | 수면과 성과 | `sleep quality performance productivity meta-analysis` |
-    | 운동과 뇌 | `exercise cognitive function brain meta-analysis` |
-    | 마음챙김 | `mindfulness anxiety stress systematic review` |
-    | 번아웃 | `burnout prevention workplace systematic review` |
-    | 성장 마인드셋 | `growth mindset academic achievement meta-analysis` |
-    """)
+| 주제 | 검색 쿼리 예시 |
+|------|--------------|
+| 습관 형성 | habit formation behavior change meta-analysis |
+| 수면과 성과 | sleep quality performance productivity meta-analysis |
+| 운동과 뇌 | exercise cognitive function brain meta-analysis |
+| 마음챙김 | mindfulness anxiety stress systematic review |
+| 번아웃 | burnout prevention workplace systematic review |
+| 성장 마인드셋 | growth mindset academic achievement meta-analysis |
+""")
 
 
 # ── 페이지: 수집 실행 ────────────────────────────────────
@@ -668,10 +724,21 @@ elif page == "🚀 수집 실행":
 
         if st.button("🔍 논문 수집 시작", type="primary", use_container_width=True):
             from collector import run_collection
-            with st.spinner("논문 수집 중..."):
-                count = run_collection()
-            st.success(f"✅ {count}편 수집 완료!")
-            st.rerun()
+            topics_check = load_topics()
+            if not topics_check:
+                st.error("주제가 없어요. '주제 관리' 메뉴에서 먼저 주제를 추가해주세요.")
+            else:
+                with st.spinner(f"논문 수집 중... ({len(topics_check)}개 주제, 최대 1~2분 소요)"):
+                    try:
+                        count = run_collection()
+                        count = count or 0
+                    except Exception as e:
+                        st.error(f"수집 중 오류 발생: {e}")
+                        count = -1
+                if count >= 0:
+                    st.success(f"✅ {count}편 신규 논문 수집 완료!")
+                    win_notify("논문 수집 완료", f"{count}편 신규 논문 수집됐어요!")
+                    st.rerun()
 
     with col2:
         st.subheader("2단계: 카드 생성")
@@ -682,11 +749,27 @@ elif page == "🚀 수집 실행":
             if not api_key or api_key == "여기에_API_키_입력":
                 st.error("⚠️ .env 파일에 ANTHROPIC_API_KEY를 설정해주세요!")
             else:
-                from explainer import run_explanation
-                with st.spinner("AI가 카드를 생성하고 있어요..."):
-                    count = run_explanation()
-                st.success(f"✅ {count}개 카드 생성 완료! '검토 대기' 메뉴에서 확인하세요.")
-                st.rerun()
+                papers_pending = [
+                    p for p in load_json("data/papers.json", [])
+                    if p.get("status") == "pending_explanation"
+                ]
+                if not papers_pending:
+                    st.info("처리할 새 논문이 없어요. 먼저 논문을 수집해주세요.")
+                else:
+                    progress_bar = st.progress(0, text="카드 생성 준비 중...")
+                    from explainer import generate_card, run_explanation
+                    with st.spinner(f"AI가 카드 생성 중... ({len(papers_pending)}개 논문)"):
+                        try:
+                            count = run_explanation()
+                            count = count or 0
+                        except Exception as e:
+                            st.error(f"카드 생성 중 오류: {e}")
+                            count = -1
+                    progress_bar.empty()
+                    if count >= 0:
+                        st.success(f"✅ {count}개 카드 생성 완료! '검토 대기' 메뉴에서 확인하세요.")
+                        win_notify("카드 생성 완료", f"{count}개 카드가 검토 대기 중이에요!")
+                        st.rerun()
 
     st.divider()
     st.subheader("⚡ 한 번에 실행")
@@ -698,17 +781,28 @@ elif page == "🚀 수집 실행":
             from collector import run_collection
             from explainer import run_explanation
             with st.spinner("논문 수집 중..."):
-                collected = run_collection()
+                try:
+                    collected = run_collection()
+                    collected = collected or 0
+                except Exception as e:
+                    st.error(f"수집 오류: {e}")
+                    collected = 0
             with st.spinner("카드 생성 중..."):
-                cards_made = run_explanation()
+                try:
+                    cards_made = run_explanation()
+                    cards_made = cards_made or 0
+                except Exception as e:
+                    st.error(f"카드 생성 오류: {e}")
+                    cards_made = 0
             st.success(f"✅ 완료! 논문 {collected}편 수집, 카드 {cards_made}개 생성")
+            if cards_made > 0:
+                win_notify("수집 & 생성 완료", f"논문 {collected}편, 카드 {cards_made}개 완료!")
             st.rerun()
 
     st.divider()
     st.subheader("📅 자동 실행 상태")
-    st.info("매주 월요일 오전 9시에 자동으로 논문을 수집하고 카드를 생성합니다.\n\n`scheduler.py`를 별도 터미널에서 실행해두면 자동화됩니다.")
+    st.info("매일 오전 9시 자동 수집은 `scheduler.py`를 별도 터미널에서 실행해두면 작동합니다.\n\n`python scheduler.py`")
 
-    # 현황
     st.subheader("📊 현황")
     cards = load_cards()
     papers = load_json("data/papers.json", [])
@@ -733,7 +827,6 @@ elif page == "📖 논문 원문 읽기":
     if not all_cards:
         st.info("읽을 수 있는 논문이 없어요. 논문을 먼저 수집해주세요.")
     else:
-        # 카드 선택
         topics = sorted(set(c.get("topic", "") for c in all_cards))
         selected_topic = st.selectbox("주제 선택", ["전체"] + topics)
 
@@ -747,7 +840,6 @@ elif page == "📖 논문 원문 읽기":
 
         st.divider()
 
-        # 카드 요약 정보
         col1, col2, col3 = st.columns(3)
         col1.metric("근거 수준", selected_card.get("evidence_level", ""))
         col2.metric("인용 횟수", f"{selected_card.get('citations', 0)}회")

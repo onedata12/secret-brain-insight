@@ -164,7 +164,7 @@ def run_collection():
     topics = load_topics()
     if not topics:
         print("주제가 없습니다. 앱에서 먼저 주제를 추가하세요.")
-        return
+        return 0
 
     total_added = 0
     for topic_obj in topics:

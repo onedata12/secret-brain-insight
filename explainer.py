@@ -126,7 +126,7 @@ def run_explanation():
 
     if not pending:
         print("새로 처리할 논문이 없습니다.")
-        return
+        return 0
 
     print(f"🤖 {len(pending)}편 카드 생성 시작...")
     new_cards = []
